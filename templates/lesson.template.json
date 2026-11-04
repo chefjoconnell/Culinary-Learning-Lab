@@ -1,0 +1,64 @@
+{
+  "id": "1-3",
+  "unit": "1.3",
+  "title": "Unit title",
+  "summary": "One-sentence summary shown on the level dashboard.",
+  "objective": "Students will be able to ... (use an action verb).",
+  "cip": "CIP 12.0508 - task/standard alignment (verify before publishing)",
+  "canvasPath": "/modules",
+  "status": "demo",
+  "miniLesson": [
+    "Paragraph 1.",
+    "Paragraph 2 (the 'why')."
+  ],
+  "definitions": [
+    {
+      "term": "Term",
+      "text": "Definition."
+    }
+  ],
+  "table": {
+    "caption": "Reference table title",
+    "headers": [
+      "Column A",
+      "Column B"
+    ],
+    "rows": [
+      [
+        "Row 1 A",
+        "Row 1 B"
+      ]
+    ]
+  },
+  "knowledgeCheck": [
+    {
+      "id": "1-3-q1",
+      "type": "multiple-choice",
+      "stem": "Question text?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A"
+        },
+        {
+          "id": "b",
+          "text": "Option B"
+        },
+        {
+          "id": "c",
+          "text": "Option C"
+        },
+        {
+          "id": "d",
+          "text": "Option D"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Why the correct answer is right."
+    }
+  ],
+  "exitTicket": {
+    "prompt": "Exit ticket question."
+  },
+  "reflection": "Reflection prompt."
+}

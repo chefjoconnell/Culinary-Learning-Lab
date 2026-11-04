@@ -1,0 +1,61 @@
+{
+  "title": "Bistró @ RMCTC",
+  "intro": "Nuestro restaurante operado por estudiantes es donde el aprendizaje del aula se convierte en servicio real. Esta página contiene solo información general. No se publican nombres, horarios ni registros de estudiantes.",
+  "announcementsTitle": "Anuncios",
+  "announcements": [
+    {
+      "date": "Ejemplo",
+      "title": "Día de apertura del Bistró (ejemplo)",
+      "body": "Reemplace esto con la fecha real de apertura, los horarios y los detalles de reservaciones."
+    },
+    {
+      "date": "Ejemplo",
+      "title": "Especial de la semana (ejemplo)",
+      "body": "Pollo asado en sartén con salsa de velouté y verduras de temporada."
+    }
+  ],
+  "menuTitle": "Menú del día (ejemplo)",
+  "menuHeaders": [
+    "Plato",
+    "Platillo",
+    "Nota"
+  ],
+  "menu": [
+    {
+      "course": "Sopa",
+      "item": "Crema de tomate",
+      "note": "Vegetariana"
+    },
+    {
+      "course": "Plato fuerte",
+      "item": "Res estofada con verduras de raíz",
+      "note": "Contiene apio"
+    },
+    {
+      "course": "Postre",
+      "item": "Crujiente de fruta de temporada",
+      "note": "Contiene trigo y leche"
+    }
+  ],
+  "allergenNote": "Pregunte siempre a su mesero sobre alérgenos. Las notas del menú son solo un ejemplo.",
+  "trainingTitle": "Temas de capacitación de servicio",
+  "training": [
+    "Asignaciones de producción y listas de preparación (administradas en Canvas)",
+    "Listas de verificación de mise en place",
+    "Responsabilidades de la brigada de cocina",
+    "Procedimientos de servicio en el comedor",
+    "Expectativas de profesionalismo en el restaurante",
+    "Reflexión diaria de producción"
+  ],
+  "mise": {
+    "title": "Lista de mise en place (práctica)",
+    "items": [
+      "Uniforme limpio, cabello recogido",
+      "Manos lavadas",
+      "Estación desinfectada",
+      "Utensilios y equipo reunidos",
+      "Recetas leídas e ingredientes preparados",
+      "Recipientes etiquetados y fechados listos"
+    ]
+  }
+}

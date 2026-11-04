@@ -1,0 +1,8 @@
+{
+  "id": "br-new",
+  "type": "multiple-choice",
+  "stem": "Warm-up question?",
+  "options": [{ "id": "a", "text": "A" }, { "id": "b", "text": "B" }, { "id": "c", "text": "C" }, { "id": "d", "text": "D" }],
+  "correct": "a",
+  "explanation": "Short explanation shown after answering."
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Certification & Competition Center",
+  "intro": "Preparation resources for industry credentials and competitions. Always confirm current exam details with the official organization. Practice questions here are original study aids, not actual exam questions.",
+  "disclaimer": "Published certification information is maintained by the instructor and may change. Verify with the official program before registering.",
+  "visit": "Official information",
+  "status": "Module status",
+  "items": [
+    { "id": "servsafe-food-handler", "name": "ServSafe Food Handler", "type": "Certification", "summary": "Entry-level food safety fundamentals: personal hygiene, time and temperature control, cross-contamination, cleaning and sanitizing.", "url": "https://www.servsafe.com/", "status": "Planned module" },
+    { "id": "servsafe-allergens", "name": "ServSafe Allergens", "type": "Certification", "summary": "Major food allergens, preventing cross-contact, and communicating with guests.", "url": "https://www.servsafe.com/", "status": "Planned module" },
+    { "id": "servsafe-manager", "name": "ServSafe Manager", "type": "Certification", "summary": "Food safety management. Practice with the Level 3 scenario unit.", "url": "https://www.servsafe.com/", "status": "Sample scenarios available", "link": "/level3/3-2" },
+    { "id": "nocti", "name": "NOCTI Culinary Arts", "type": "Assessment", "summary": "Technical skills assessment aligned to career and technical education competencies.", "url": "https://www.nocti.org/", "status": "Planned module" },
+    { "id": "acf-cfc", "name": "ACF Certified Fundamentals Cook", "type": "Certification", "summary": "American Culinary Federation credential for foundational cooking skills.", "url": "https://www.acfchefs.org/", "status": "Planned module" },
+    { "id": "fccla-culinary", "name": "FCCLA Culinary Arts", "type": "Competition", "summary": "Family, Career and Community Leaders of America culinary event.", "url": "https://fcclainc.org/", "status": "Planned module" },
+    { "id": "fccla-baking", "name": "FCCLA Baking and Pastry", "type": "Competition", "summary": "FCCLA baking and pastry event.", "url": "https://fcclainc.org/", "status": "Planned module" },
+    { "id": "fccla-restaurant", "name": "FCCLA Restaurant Service", "type": "Competition", "summary": "FCCLA restaurant service event.", "url": "https://fcclainc.org/", "status": "Planned module" },
+    { "id": "skillsusa-culinary", "name": "SkillsUSA Culinary Arts", "type": "Competition", "summary": "SkillsUSA championships culinary arts contest.", "url": "https://www.skillsusa.org/", "status": "Planned module" },
+    { "id": "skillsusa-restaurant", "name": "SkillsUSA Restaurant Service", "type": "Competition", "summary": "SkillsUSA championships restaurant service contest.", "url": "https://www.skillsusa.org/", "status": "Planned module" }
+  ]
+}

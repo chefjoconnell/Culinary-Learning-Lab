@@ -1,0 +1,227 @@
+{
+  "level": 3,
+  "title": "Level 3 – Advanced Culinary Arts",
+  "overview": "Lead in the kitchen: fabrication, advanced sauces, menu and cost management, and certification preparation, including ServSafe Manager and NOCTI.",
+  "pathway": ["Meat, poultry and seafood fabrication", "Charcuterie", "Advanced sauces and classical cooking", "Menu engineering and food costing", "Restaurant leadership", "Certification and capstone"],
+  "nextSteps": ["Study the primals in Unit 3.1 and aim for 5/5.", "Work through the ServSafe scenarios in Unit 3.2.", "Review the Certification Center for NOCTI and ACF."],
+  "canvasPath": "/modules",
+  "plannedUnits": [
+    { "id": "p1", "title": "Poultry and seafood fabrication" },
+    { "id": "p2", "title": "Charcuterie and sausage production" },
+    { "id": "p3", "title": "Advanced baking, pastry and plated desserts" },
+    { "id": "p4", "title": "Menu engineering and food costing" },
+    { "id": "p5", "title": "Restaurant management and leadership" },
+    { "id": "p6", "title": "NOCTI and ACF preparation; Restaurant Wars capstone" }
+  ],
+  "units": [
+    {
+      "id": "3-1",
+      "unit": "3.1",
+      "title": "Beef and Pork Fabrication Overview",
+      "summary": "Primal and subprimal cuts: where they come from and how to cook them.",
+      "objective": "Identify the major beef and pork primals, name common subprimals, and match each to an appropriate cooking method.",
+      "cip": "CIP 12.0508 – Meat fabrication (alignment to be confirmed by instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "A primal is a large initial cut from the carcass. A subprimal is a smaller cut taken from a primal, and portions are cut from subprimals. Fabricating your own primals can lower cost and improve control over portion size and trim.",
+        "Location predicts tenderness. Muscles along the back that do little work (loin and rib) are tender. Muscles that support and move the animal (chuck, brisket, shank, round) have more connective tissue.",
+        "Safety first: use sharp, appropriate knives, cut-resistant gloves where required, a stable cutting surface, and keep raw meat cold and separated from ready-to-eat foods."
+      ],
+      "definitions": [
+        { "term": "Primal", "text": "A major section of the carcass, such as the beef rib or pork loin." },
+        { "term": "Subprimal", "text": "A smaller cut from a primal, such as the beef strip loin from the short loin." },
+        { "term": "Fabrication", "text": "Breaking down large cuts into smaller portions." },
+        { "term": "Yield", "text": "The usable amount after trimming, bones and waste are removed." }
+      ],
+      "table": {
+        "caption": "Beef and pork primals – visual reference table",
+        "headers": ["Animal", "Primal", "Location", "Example subprimals / cuts", "Typical cooking"],
+        "rows": [
+          ["Beef", "Chuck", "Shoulder", "Chuck roll, shoulder clod", "Braise, stew, grind"],
+          ["Beef", "Rib", "Upper mid back", "Ribeye roll, prime rib", "Roast, grill"],
+          ["Beef", "Short loin", "Back, behind rib", "Strip loin, tenderloin (psoas)", "Grill, sauté, roast"],
+          ["Beef", "Round", "Rear leg", "Top round, bottom round", "Roast, braise"],
+          ["Pork", "Shoulder (Boston butt)", "Front shoulder", "Boston butt", "Braise, slow roast"],
+          ["Pork", "Loin", "Back", "Center-cut loin, tenderloin", "Roast, grill, sauté"],
+          ["Pork", "Belly", "Underside", "Bacon, fresh belly", "Braise, cure, roast"],
+          ["Pork", "Leg (ham)", "Rear leg", "Fresh ham", "Roast, cure"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "3-1-q1", "type": "multiple-choice",
+          "stem": "Which beef primal contains the ribeye?",
+          "options": [{ "id": "a", "text": "Chuck" }, { "id": "b", "text": "Rib" }, { "id": "c", "text": "Round" }, { "id": "d", "text": "Brisket" }],
+          "correct": "b",
+          "explanation": "The ribeye roll comes from the rib primal."
+        },
+        {
+          "id": "3-1-q2", "type": "multiple-choice",
+          "stem": "Which pork primal is the source of bacon?",
+          "options": [{ "id": "a", "text": "Belly" }, { "id": "b", "text": "Loin" }, { "id": "c", "text": "Shoulder" }, { "id": "d", "text": "Leg" }],
+          "correct": "a",
+          "explanation": "Bacon is cured (and usually smoked) pork belly."
+        },
+        {
+          "id": "3-1-q3", "type": "multiple-choice",
+          "stem": "Why are cuts from the chuck usually braised?",
+          "options": [{ "id": "a", "text": "They are very tender" }, { "id": "b", "text": "They contain lots of connective tissue from hard-working muscles" }, { "id": "c", "text": "They contain no fat" }, { "id": "d", "text": "They are too small for dry heat" }],
+          "correct": "b",
+          "explanation": "Hard-working shoulder muscles are tough and need long moist heat to tenderize."
+        },
+        {
+          "id": "3-1-q4", "type": "multiple-choice",
+          "stem": "What is a subprimal?",
+          "options": [{ "id": "a", "text": "A finished portion on the plate" }, { "id": "b", "text": "A smaller cut taken from a primal" }, { "id": "c", "text": "A whole carcass" }, { "id": "d", "text": "A kind of stock" }],
+          "correct": "b",
+          "explanation": "Primal → subprimal → portion cut."
+        },
+        {
+          "id": "3-1-q5", "type": "multiple-choice",
+          "stem": "When fabricating raw meat, which practice reduces cross-contamination?",
+          "options": [{ "id": "a", "text": "Use one board for raw meat and ready-to-eat food" }, { "id": "b", "text": "Clean and sanitize boards, knives and hands after handling raw meat" }, { "id": "c", "text": "Rinse the knife with cold water only" }, { "id": "d", "text": "Wipe the board with a dry towel" }],
+          "correct": "b",
+          "explanation": "Surfaces and tools must be cleaned and sanitized between tasks; do not share boards between raw meat and ready-to-eat foods."
+        }
+      ],
+      "exitTicket": { "prompt": "Name a primal, one subprimal from it, and the cooking method you would choose. Explain your reasoning." },
+      "reflection": "How could fabricating primals in-house change cost and waste in a restaurant?"
+    },
+    {
+      "id": "3-2",
+      "unit": "3.2",
+      "title": "ServSafe Manager Scenario Practice",
+      "summary": "Realistic kitchen situations: spot the violation and choose the corrective action.",
+      "objective": "Identify food safety violations in realistic scenarios and select appropriate corrective actions.",
+      "cip": "CIP 12.0508 – Food safety and sanitation management (alignment to be confirmed by instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Managers prevent foodborne illness by controlling time and temperature, preventing cross-contamination, enforcing personal hygiene, and cleaning and sanitizing correctly.",
+        "The values in the reference table follow the FDA Food Code. Your jurisdiction may adopt a different edition, so the instructor must verify these against the code in effect locally.",
+        "These scenarios are original practice items, not official ServSafe exam questions. Official certification practice is available from ServSafe."
+      ],
+      "definitions": [
+        { "term": "TCS food", "text": "Food that requires time/temperature control for safety, such as cooked rice, cut melon, meat and dairy." },
+        { "term": "Cross-contamination", "text": "The transfer of harmful microorganisms from one food or surface to another." },
+        { "term": "Corrective action", "text": "A step taken to fix a problem and prevent it from causing harm." },
+        { "term": "Temperature danger zone", "text": "The range of temperatures where bacteria multiply fastest." }
+      ],
+      "table": {
+        "caption": "Reference values (FDA Food Code – instructor to verify current local edition)",
+        "headers": ["Control", "Standard", "Notes"],
+        "rows": [
+          ["Cold holding of TCS food", "41°F (5°C) or lower", "Verify with a calibrated thermometer"],
+          ["Hot holding of TCS food", "135°F (57°C) or higher", "Do not reheat in hot-holding equipment"],
+          ["Poultry internal cook temperature", "165°F (74°C)", "For 15 seconds"],
+          ["Handwashing", "At least 20 seconds total", "Hand sink only"]
+        ]
+      },
+      "scenarios": [
+        {
+          "id": "s1",
+          "title": "Raw chicken and salad",
+          "situation": "A cook cuts raw chicken on a board, then uses the same board and knife, wiped with a damp towel, to slice tomatoes for a salad.",
+          "questions": [
+            {
+              "id": "3-2-s1-q1", "type": "multiple-choice",
+              "stem": "What is the primary violation?",
+              "options": [{ "id": "a", "text": "Cross-contamination from raw poultry to a ready-to-eat food" }, { "id": "b", "text": "Cutting tomatoes too thickly" }, { "id": "c", "text": "Using a knife" }, { "id": "d", "text": "Slicing the chicken first" }],
+              "correct": "a",
+              "explanation": "Raw poultry can carry harmful bacteria. Sharing an unsanitized board and knife transfers it to a food that will not be cooked."
+            },
+            {
+              "id": "3-2-s1-q2", "type": "multiple-choice",
+              "stem": "What is the best corrective action?",
+              "options": [{ "id": "a", "text": "Serve the salad quickly" }, { "id": "b", "text": "Discard the tomatoes, then wash, rinse and sanitize the board and knife and use separate equipment" }, { "id": "c", "text": "Rinse the tomatoes under cold water" }, { "id": "d", "text": "Cook the tomatoes" }],
+              "correct": "b",
+              "explanation": "Contaminated ready-to-eat food must be discarded and surfaces cleaned and sanitized. Prevent recurrence with separate, color-coded equipment."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The walk-in cooler",
+          "situation": "During a delivery check, a manager measures the internal temperature of cut melon in the cooler at 50°F (10°C). The cooler thermometer reads 49°F.",
+          "questions": [
+            {
+              "id": "3-2-s2-q1", "type": "multiple-choice",
+              "stem": "What is the violation?",
+              "options": [{ "id": "a", "text": "Cut melon is not stored in the cooler" }, { "id": "b", "text": "A TCS food is being held above the cold-holding temperature" }, { "id": "c", "text": "The thermometer is wrong" }, { "id": "d", "text": "The melon is too ripe" }],
+              "correct": "b",
+              "explanation": "Cut melon is a TCS food and must be held at 41°F (5°C) or lower."
+            },
+            {
+              "id": "3-2-s2-q2", "type": "multiple-choice",
+              "stem": "What should the manager do first?",
+              "options": [{ "id": "a", "text": "Evaluate how long the food has been out of temperature, take action on the food per policy, and fix or service the cooler" }, { "id": "b", "text": "Add more melon to the cooler" }, { "id": "c", "text": "Turn the thermometer to a lower number" }, { "id": "d", "text": "Wait until tomorrow" }],
+              "correct": "a",
+              "explanation": "Determine time out of temperature, discard or act on affected food per policy, then correct the equipment issue and document it."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Handwashing",
+          "situation": "A cook returns from a break, touches his phone, and starts plating food without washing his hands.",
+          "questions": [
+            {
+              "id": "3-2-s3-q1", "type": "multiple-choice",
+              "stem": "Which statement describes the violation and the correction?",
+              "options": [{ "id": "a", "text": "No violation – hands look clean" }, { "id": "b", "text": "Hands must be washed at a hand sink before handling food; stop work and wash" }, { "id": "c", "text": "Use hand sanitizer instead of washing" }, { "id": "d", "text": "Wear gloves over dirty hands" }],
+              "correct": "b",
+              "explanation": "Hands must be washed after breaks and after touching contaminated items such as phones. Gloves do not replace handwashing."
+            },
+            {
+              "id": "3-2-s3-q2", "type": "multiple-choice",
+              "stem": "Which is the best long-term fix?",
+              "options": [{ "id": "a", "text": "Retrain staff on when to wash hands and keep sinks stocked and accessible" }, { "id": "b", "text": "Remove all sinks" }, { "id": "c", "text": "Ignore it" }, { "id": "d", "text": "Ban breaks" }],
+              "correct": "a",
+              "explanation": "A manager prevents repeat problems through training, monitoring and accessible supplies."
+            }
+          ]
+        }
+      ],
+      "knowledgeCheck": [
+        {
+          "id": "3-2-q1", "type": "multiple-choice",
+          "stem": "Which is a TCS food?",
+          "options": [{ "id": "a", "text": "Cooked rice" }, { "id": "b", "text": "Dry flour" }, { "id": "c", "text": "Granulated sugar" }, { "id": "d", "text": "Whole dry beans" }],
+          "correct": "a",
+          "explanation": "Cooked rice supports bacterial growth if held improperly, so it needs time and temperature control."
+        },
+        {
+          "id": "3-2-q2", "type": "multiple-choice",
+          "stem": "At what temperature or colder should TCS food be held cold, per the FDA Food Code?",
+          "options": [{ "id": "a", "text": "41°F (5°C)" }, { "id": "b", "text": "50°F (10°C)" }, { "id": "c", "text": "60°F (16°C)" }, { "id": "d", "text": "70°F (21°C)" }],
+          "correct": "a",
+          "explanation": "The FDA Food Code sets cold holding at 41°F (5°C) or lower. Verify your local code edition."
+        },
+        {
+          "id": "3-2-q3", "type": "multiple-choice",
+          "stem": "Which action best prevents cross-contamination?",
+          "options": [{ "id": "a", "text": "Store raw meat above ready-to-eat food" }, { "id": "b", "text": "Store ready-to-eat food above raw meat" }, { "id": "c", "text": "Store them side by side uncovered" }, { "id": "d", "text": "Store them together in one pan" }],
+          "correct": "b",
+          "explanation": "Raw animal foods are stored below ready-to-eat foods so juices cannot drip onto them."
+        },
+        {
+          "id": "3-2-q4", "type": "multiple-choice",
+          "stem": "What is a corrective action?",
+          "options": [{ "id": "a", "text": "A step taken to fix a problem when a standard is not met" }, { "id": "b", "text": "A health inspector's fine" }, { "id": "c", "text": "A new recipe" }, { "id": "d", "text": "A type of sanitizer" }],
+          "correct": "a",
+          "explanation": "Corrective actions fix the problem and prevent unsafe food from being served."
+        },
+        {
+          "id": "3-2-q5", "type": "multiple-choice",
+          "stem": "Which is true about gloves?",
+          "options": [{ "id": "a", "text": "They replace handwashing" }, { "id": "b", "text": "They must be changed when soiled or when tasks change, and hands must be washed first" }, { "id": "c", "text": "They can be worn all shift" }, { "id": "d", "text": "They are only for dishwashing" }],
+          "correct": "b",
+          "explanation": "Gloves are a barrier, not a substitute for handwashing, and must be changed between tasks."
+        }
+      ],
+      "exitTicket": { "prompt": "Describe a food safety problem you have seen or could see in a kitchen, the risk it creates, and the corrective action." },
+      "reflection": "As a future manager, what system would you put in place to catch problems before service?"
+    }
+  ]
+}

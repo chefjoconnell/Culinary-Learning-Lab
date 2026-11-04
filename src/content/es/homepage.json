@@ -1,0 +1,146 @@
+{
+  "hero": {
+    "eyebrow": "El Centro de Comando Culinario",
+    "title": "Bienvenidos a su cocina diaria de aprendizaje",
+    "welcomeFrom": "Un mensaje del Chef O'Connell",
+    "welcome": "Bienvenidos de nuevo, chefs. En esta cocina elegimos lo difícil, preparamos nuestra mise en place y mejoramos un 1 % cada día. Empiecen con el calentamiento y luego acepten el desafío de hoy. Los estándares se ganan con práctica deliberada y retroalimentación."
+  },
+  "today": {
+    "title": "Objetivo de aprendizaje de hoy",
+    "objective": "Nombrar las cinco salsas madre clásicas e identificar el espesante de cada una.",
+    "unitTitle": "Unidad culinaria actual",
+    "unit": "Unidad 1.1 – Las Cinco Salsas Madre",
+    "unitLink": "/level1/1-1",
+    "skillTitle": "Habilidad culinaria destacada",
+    "skill": "Preparar un roux rubio: pesos iguales de grasa y harina, cocidos suavemente sin dorar, y enfriados o atemperados antes de añadir el líquido.",
+    "start": "Comenzar la unidad de hoy"
+  },
+  "bellRinger": {
+    "title": "Calentamiento diario",
+    "intro": "Dos minutos. Sin notas. Recordar fortalece la memoria.",
+    "done": "Calentamiento completo: buen comienzo.",
+    "questions": [
+      {
+        "id": "br-1", "type": "multiple-choice",
+        "stem": "¿Qué salsa madre se espesa con un roux y se hace con leche?",
+        "options": [
+          { "id": "a", "text": "Bechamel" }, { "id": "b", "text": "Velouté" },
+          { "id": "c", "text": "Holandesa" }, { "id": "d", "text": "Tomate" }
+        ],
+        "correct": "a",
+        "explanation": "La bechamel es leche espesada con un roux blanco. El velouté usa fondo blanco en lugar de leche."
+      },
+      {
+        "id": "br-2", "type": "multiple-choice",
+        "stem": "¿Qué significa «mise en place»?",
+        "options": [
+          { "id": "a", "text": "Cocinar al momento" }, { "id": "b", "text": "Todo en su lugar" },
+          { "id": "c", "text": "Sazonar al final" }, { "id": "d", "text": "Limpiar mientras se trabaja" }
+        ],
+        "correct": "b",
+        "explanation": "Mise en place es una expresión francesa que significa «todo en su lugar»: organizar y preparar antes de cocinar."
+      },
+      {
+        "id": "br-3", "type": "multiple-choice",
+        "stem": "¿Qué tipo de cocción usa líquido o vapor para transferir calor?",
+        "options": [
+          { "id": "a", "text": "Calor seco" }, { "id": "b", "text": "Calor húmedo" },
+          { "id": "c", "text": "Ahumado en frío" }, { "id": "d", "text": "Fermentación" }
+        ],
+        "correct": "b",
+        "explanation": "Los métodos de calor húmedo, como el estofado, el escalfado y el vapor, transfieren calor mediante líquido o vapor."
+      }
+    ]
+  },
+  "challenge": {
+    "title": "Desafío culinario del día",
+    "intro": "Cinco preguntas. Dos minutos. Responda todas las que pueda antes de que termine el tiempo.",
+    "start": "Comenzar desafío",
+    "next": "Siguiente pregunta",
+    "finish": "Ver resultados",
+    "timeLeft": "Tiempo restante",
+    "timeUp": "¡Se acabó el tiempo!",
+    "result": "Respondió correctamente {score} de {total}.",
+    "again": "Intentar de nuevo",
+    "pointsNote": "Solo puntos de práctica: no es una calificación.",
+    "questions": [
+      {
+        "id": "ch-1", "type": "multiple-choice",
+        "stem": "¿Qué salsa madre es una emulsión de yemas de huevo y mantequilla clarificada?",
+        "options": [{ "id": "a", "text": "Española" }, { "id": "b", "text": "Bechamel" }, { "id": "c", "text": "Holandesa" }, { "id": "d", "text": "Velouté" }],
+        "correct": "c",
+        "explanation": "La holandesa es una emulsión tibia de yemas de huevo y mantequilla clarificada, sazonada con limón."
+      },
+      {
+        "id": "ch-2", "type": "multiple-choice",
+        "stem": "¿Cuál es la proporción clásica de un roux por peso?",
+        "options": [{ "id": "a", "text": "2 partes de harina : 1 de grasa" }, { "id": "b", "text": "1 parte de harina : 2 de grasa" }, { "id": "c", "text": "Partes iguales de grasa y harina" }, { "id": "d", "text": "3 partes de harina : 1 de grasa" }],
+        "correct": "c",
+        "explanation": "Un roux clásico lleva partes iguales de grasa y harina por peso, cocido hasta el color que requiere la salsa."
+      },
+      {
+        "id": "ch-3", "type": "multiple-choice",
+        "stem": "¿Qué huesos se usan para un fondo oscuro?",
+        "options": [{ "id": "a", "text": "Huesos de pollo crudos, cocidos a fuego suave" }, { "id": "b", "text": "Huesos de res o ternera asados" }, { "id": "c", "text": "Solo espinas de pescado" }, { "id": "d", "text": "Solo verduras" }],
+        "correct": "b",
+        "explanation": "El fondo oscuro usa huesos asados (y normalmente mirepoix asado y puré de tomate) para dar color y sabor."
+      },
+      {
+        "id": "ch-4", "type": "multiple-choice",
+        "stem": "El porcentaje de rendimiento se calcula como…",
+        "options": [{ "id": "a", "text": "Peso de compra ÷ peso utilizable × 100" }, { "id": "b", "text": "Peso utilizable ÷ peso de compra × 100" }, { "id": "c", "text": "Costo ÷ precio × 100" }, { "id": "d", "text": "Peso utilizable × peso de compra" }],
+        "correct": "b",
+        "explanation": "Rendimiento % = peso utilizable (comestible) ÷ peso de compra × 100."
+      },
+      {
+        "id": "ch-5", "type": "multiple-choice",
+        "stem": "¿Qué método de cocción es mejor para un corte duro y rico en tejido conectivo, como el chuck de res?",
+        "options": [{ "id": "a", "text": "Salteado rápido" }, { "id": "b", "text": "A la parrilla casi crudo" }, { "id": "c", "text": "Estofado" }, { "id": "d", "text": "Fritura profunda" }],
+        "correct": "c",
+        "explanation": "La cocción lenta y prolongada con calor húmedo (estofado) convierte el colágeno en gelatina y ablanda los cortes duros."
+      }
+    ]
+  },
+  "professionalism": {
+    "title": "Recordatorio de profesionalismo",
+    "items": [
+      "El profesionalismo se practica, no solo se discute.",
+      "Llegue con el uniforme listo, el cabello recogido y las manos lavadas.",
+      "La mise en place se aplica a la cocina, al aprendizaje y a la vida.",
+      "Limpie mientras trabaja. Pruebe, ajuste y responsabilícese de su trabajo."
+    ]
+  },
+  "levels": {
+    "title": "Vaya a su nivel",
+    "level1": "Nivel 1 – Fundamentos Culinarios",
+    "level2": "Nivel 2 – Artes Culinarias Intermedias",
+    "level3": "Nivel 3 – Artes Culinarias Avanzadas"
+  },
+  "assessments": {
+    "title": "Próximas evaluaciones prácticas",
+    "note": "El instructor administra las fechas en este archivo. Confirme en Canvas.",
+    "items": [
+      { "date": "Ejemplo – Semana 1", "title": "Práctica de cortes con cuchillo (Nivel 1)", "detail": "Brunoise, juliana y bastón. Traiga su propio estuche de cuchillos." },
+      { "date": "Ejemplo – Semana 2", "title": "Práctica de salsas madre (Nivel 1)", "detail": "Prepare una salsa madre y una derivada." },
+      { "date": "Ejemplo – Semana 3", "title": "Práctica de despiece (Nivel 3)", "detail": "Despiece un lomo de cerdo en porciones." }
+    ]
+  },
+  "bistroTeaser": { "title": "Anuncios del Bistró @ RMCTC", "more": "Ver la página del Bistró" },
+  "certTeaser": {
+    "title": "Preparación para certificaciones",
+    "servsafe": "Preparación para ServSafe",
+    "nocti": "Preparación para NOCTI",
+    "link": "/certifications"
+  },
+  "canvasShortcuts": {
+    "title": "Accesos directos a Canvas",
+    "note": "Estos enlaces abren su curso de Canvas. Inicie sesión en Canvas primero si se le pide.",
+    "items": [
+      { "label": "Módulos del curso", "path": "/modules" },
+      { "label": "Tareas", "path": "/assignments" },
+      { "label": "Cuestionarios", "path": "/quizzes" },
+      { "label": "Discusiones", "path": "/discussion_topics" },
+      { "label": "Calificaciones (oficiales)", "path": "/grades" }
+    ]
+  }
+}

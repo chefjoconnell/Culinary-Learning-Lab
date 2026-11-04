@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-warm-50 text-charcoal-900 font-sans antialiased; }
+  .dark body { @apply bg-charcoal-900 text-warm-100; }
+  :focus-visible { outline: 3px solid #d99a1e; outline-offset: 2px; }
+  h1, h2, h3 { @apply font-display; }
+}
+
+@layer components {
+  .panel { @apply rounded-xl border border-steel-300 bg-white p-5 shadow-sm dark:border-charcoal-600 dark:bg-charcoal-800; }
+  .link { @apply text-ember-600 underline underline-offset-2 hover:text-ember-500 dark:text-saffron-400; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in { animation: fade-in 0.35s ease-out; }
+  @keyframes fade-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,227 @@
+{
+  "level": 3,
+  "title": "Nivel 3 – Artes Culinarias Avanzadas",
+  "overview": "Lidere en la cocina: despiece, salsas avanzadas, gestión de menús y costos, y preparación para certificaciones, incluidas ServSafe Manager y NOCTI.",
+  "pathway": ["Despiece de carnes, aves y mariscos", "Charcutería", "Salsas avanzadas y cocina clásica", "Ingeniería de menús y costeo", "Liderazgo en restaurantes", "Certificación y proyecto final"],
+  "nextSteps": ["Estudie los primales de la Unidad 3.1 y busque 5/5.", "Trabaje los escenarios de ServSafe de la Unidad 3.2.", "Revise el Centro de Certificaciones para NOCTI y ACF."],
+  "canvasPath": "/modules",
+  "plannedUnits": [
+    { "id": "p1", "title": "Despiece de aves y mariscos" },
+    { "id": "p2", "title": "Charcutería y producción de embutidos" },
+    { "id": "p3", "title": "Panadería avanzada, repostería y postres emplatados" },
+    { "id": "p4", "title": "Ingeniería de menús y costeo de alimentos" },
+    { "id": "p5", "title": "Administración y liderazgo de restaurantes" },
+    { "id": "p6", "title": "Preparación NOCTI y ACF; proyecto final Restaurant Wars" }
+  ],
+  "units": [
+    {
+      "id": "3-1",
+      "unit": "3.1",
+      "title": "Introducción al Despiece de Res y Cerdo",
+      "summary": "Cortes primales y subprimales: de dónde vienen y cómo cocinarlos.",
+      "objective": "Identificar los principales primales de res y cerdo, nombrar subprimales comunes y relacionar cada uno con un método de cocción adecuado.",
+      "cip": "CIP 12.0508 – Despiece de carnes (alineación por confirmar por el instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Un primal es un corte grande inicial de la canal. Un subprimal es un corte más pequeño tomado de un primal, y las porciones se cortan de los subprimales. Despiezar sus propios primales puede reducir costos y mejorar el control del tamaño de las porciones y los recortes.",
+        "La ubicación predice la terneza. Los músculos del lomo que trabajan poco (lomo y costillar) son tiernos. Los músculos que sostienen y mueven al animal (paleta, pecho, chambarete, pierna) tienen más tejido conectivo.",
+        "La seguridad primero: use cuchillos afilados y adecuados, guantes resistentes a cortes cuando se requieran, una superficie estable, y mantenga la carne cruda fría y separada de los alimentos listos para comer."
+      ],
+      "definitions": [
+        { "term": "Primal", "text": "Sección principal de la canal, como el costillar de res o el lomo de cerdo." },
+        { "term": "Subprimal", "text": "Corte más pequeño de un primal, como el lomo (strip loin) del lomo corto." },
+        { "term": "Despiece", "text": "Dividir cortes grandes en cortes más pequeños." },
+        { "term": "Rendimiento", "text": "La cantidad utilizable después de retirar recortes, huesos y desperdicio." }
+      ],
+      "table": {
+        "caption": "Primales de res y cerdo – tabla de referencia visual",
+        "headers": ["Animal", "Primal", "Ubicación", "Ejemplos de subprimales / cortes", "Cocción típica"],
+        "rows": [
+          ["Res", "Paleta (chuck)", "Hombro", "Chuck roll, paleta", "Estofar, guisar, moler"],
+          ["Res", "Costillar (rib)", "Parte media superior del lomo", "Ribeye roll, prime rib", "Asar, parrilla"],
+          ["Res", "Lomo corto (short loin)", "Lomo, detrás del costillar", "Strip loin, filete (psoas)", "Parrilla, saltear, asar"],
+          ["Res", "Pierna (round)", "Pata trasera", "Top round, bottom round", "Asar, estofar"],
+          ["Cerdo", "Paleta (Boston butt)", "Hombro delantero", "Boston butt", "Estofar, asar lentamente"],
+          ["Cerdo", "Lomo", "Lomo", "Lomo centro, filete", "Asar, parrilla, saltear"],
+          ["Cerdo", "Panceta", "Parte inferior", "Tocino, panceta fresca", "Estofar, curar, asar"],
+          ["Cerdo", "Pierna (jamón)", "Pata trasera", "Jamón fresco", "Asar, curar"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "3-1-q1", "type": "multiple-choice",
+          "stem": "¿Qué primal de res contiene el ribeye?",
+          "options": [{ "id": "a", "text": "Paleta (chuck)" }, { "id": "b", "text": "Costillar (rib)" }, { "id": "c", "text": "Pierna (round)" }, { "id": "d", "text": "Pecho" }],
+          "correct": "b",
+          "explanation": "El ribeye roll proviene del primal del costillar."
+        },
+        {
+          "id": "3-1-q2", "type": "multiple-choice",
+          "stem": "¿Qué primal de cerdo es el origen del tocino?",
+          "options": [{ "id": "a", "text": "Panceta" }, { "id": "b", "text": "Lomo" }, { "id": "c", "text": "Paleta" }, { "id": "d", "text": "Pierna" }],
+          "correct": "a",
+          "explanation": "El tocino es panceta de cerdo curada (y normalmente ahumada)."
+        },
+        {
+          "id": "3-1-q3", "type": "multiple-choice",
+          "stem": "¿Por qué los cortes de la paleta (chuck) suelen estofarse?",
+          "options": [{ "id": "a", "text": "Son muy tiernos" }, { "id": "b", "text": "Contienen mucho tejido conectivo de músculos que trabajan mucho" }, { "id": "c", "text": "No contienen grasa" }, { "id": "d", "text": "Son demasiado pequeños para calor seco" }],
+          "correct": "b",
+          "explanation": "Los músculos del hombro trabajan mucho y son duros; necesitan calor húmedo prolongado para ablandarse."
+        },
+        {
+          "id": "3-1-q4", "type": "multiple-choice",
+          "stem": "¿Qué es un subprimal?",
+          "options": [{ "id": "a", "text": "Una porción terminada en el plato" }, { "id": "b", "text": "Un corte más pequeño tomado de un primal" }, { "id": "c", "text": "Una canal entera" }, { "id": "d", "text": "Un tipo de fondo" }],
+          "correct": "b",
+          "explanation": "Primal → subprimal → porción."
+        },
+        {
+          "id": "3-1-q5", "type": "multiple-choice",
+          "stem": "Al despiezar carne cruda, ¿qué práctica reduce la contaminación cruzada?",
+          "options": [{ "id": "a", "text": "Usar una sola tabla para carne cruda y alimentos listos para comer" }, { "id": "b", "text": "Limpiar y desinfectar tablas, cuchillos y manos después de manejar carne cruda" }, { "id": "c", "text": "Enjuagar el cuchillo solo con agua fría" }, { "id": "d", "text": "Limpiar la tabla con un paño seco" }],
+          "correct": "b",
+          "explanation": "Las superficies y los utensilios deben limpiarse y desinfectarse entre tareas; no se deben compartir tablas entre carne cruda y alimentos listos para comer."
+        }
+      ],
+      "exitTicket": { "prompt": "Nombre un primal, un subprimal de ese primal y el método de cocción que elegiría. Explique su razonamiento." },
+      "reflection": "¿Cómo podría el despiece de primales en el restaurante cambiar los costos y el desperdicio?"
+    },
+    {
+      "id": "3-2",
+      "unit": "3.2",
+      "title": "Práctica de Escenarios de ServSafe Manager",
+      "summary": "Situaciones realistas de cocina: identifique la infracción y elija la acción correctiva.",
+      "objective": "Identificar infracciones de inocuidad alimentaria en escenarios realistas y seleccionar acciones correctivas adecuadas.",
+      "cip": "CIP 12.0508 – Gestión de inocuidad e higiene alimentaria (alineación por confirmar por el instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Los gerentes previenen las enfermedades transmitidas por alimentos controlando el tiempo y la temperatura, evitando la contaminación cruzada, exigiendo la higiene personal y limpiando y desinfectando correctamente.",
+        "Los valores de la tabla de referencia siguen el Código de Alimentos de la FDA. Su jurisdicción puede adoptar otra edición, por lo que el instructor debe verificarlos con el código vigente localmente.",
+        "Estos escenarios son ejercicios de práctica originales, no preguntas oficiales del examen de ServSafe. La práctica oficial de certificación está disponible en ServSafe."
+      ],
+      "definitions": [
+        { "term": "Alimento TCS", "text": "Alimento que requiere control de tiempo y temperatura por seguridad, como arroz cocido, melón cortado, carnes y lácteos." },
+        { "term": "Contaminación cruzada", "text": "Transferencia de microorganismos dañinos de un alimento o superficie a otro." },
+        { "term": "Acción correctiva", "text": "Paso que se toma para corregir un problema y evitar que cause daño." },
+        { "term": "Zona de peligro de temperatura", "text": "Rango de temperaturas en el que las bacterias se multiplican más rápido." }
+      ],
+      "table": {
+        "caption": "Valores de referencia (Código de Alimentos de la FDA – el instructor debe verificar la edición local vigente)",
+        "headers": ["Control", "Estándar", "Notas"],
+        "rows": [
+          ["Conservación en frío de alimentos TCS", "41 °F (5 °C) o menos", "Verifique con un termómetro calibrado"],
+          ["Conservación en caliente de alimentos TCS", "135 °F (57 °C) o más", "No recaliente en equipo de conservación en caliente"],
+          ["Temperatura interna de cocción del ave", "165 °F (74 °C)", "Durante 15 segundos"],
+          ["Lavado de manos", "Al menos 20 segundos en total", "Solo en el lavamanos"]
+        ]
+      },
+      "scenarios": [
+        {
+          "id": "s1",
+          "title": "Pollo crudo y ensalada",
+          "situation": "Un cocinero corta pollo crudo en una tabla y luego usa la misma tabla y el mismo cuchillo, limpiados con un paño húmedo, para rebanar tomates para una ensalada.",
+          "questions": [
+            {
+              "id": "3-2-s1-q1", "type": "multiple-choice",
+              "stem": "¿Cuál es la infracción principal?",
+              "options": [{ "id": "a", "text": "Contaminación cruzada del ave cruda a un alimento listo para comer" }, { "id": "b", "text": "Cortar los tomates muy gruesos" }, { "id": "c", "text": "Usar un cuchillo" }, { "id": "d", "text": "Cortar primero el pollo" }],
+              "correct": "a",
+              "explanation": "El ave cruda puede portar bacterias dañinas. Compartir tabla y cuchillo sin desinfectar las transfiere a un alimento que no se cocinará."
+            },
+            {
+              "id": "3-2-s1-q2", "type": "multiple-choice",
+              "stem": "¿Cuál es la mejor acción correctiva?",
+              "options": [{ "id": "a", "text": "Servir la ensalada rápidamente" }, { "id": "b", "text": "Desechar los tomates, lavar, enjuagar y desinfectar la tabla y el cuchillo, y usar equipo separado" }, { "id": "c", "text": "Enjuagar los tomates con agua fría" }, { "id": "d", "text": "Cocinar los tomates" }],
+              "correct": "b",
+              "explanation": "El alimento listo para comer contaminado debe desecharse y las superficies deben limpiarse y desinfectarse. Evite que se repita con equipo separado y codificado por colores."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "La cámara fría",
+          "situation": "Durante la revisión de una entrega, un gerente mide la temperatura interna del melón cortado en la cámara fría: 50 °F (10 °C). El termómetro de la cámara marca 49 °F.",
+          "questions": [
+            {
+              "id": "3-2-s2-q1", "type": "multiple-choice",
+              "stem": "¿Cuál es la infracción?",
+              "options": [{ "id": "a", "text": "El melón cortado no se guarda en la cámara" }, { "id": "b", "text": "Un alimento TCS se mantiene por encima de la temperatura de conservación en frío" }, { "id": "c", "text": "El termómetro está mal" }, { "id": "d", "text": "El melón está demasiado maduro" }],
+              "correct": "b",
+              "explanation": "El melón cortado es un alimento TCS y debe mantenerse a 41 °F (5 °C) o menos."
+            },
+            {
+              "id": "3-2-s2-q2", "type": "multiple-choice",
+              "stem": "¿Qué debe hacer primero el gerente?",
+              "options": [{ "id": "a", "text": "Evaluar cuánto tiempo estuvo fuera de temperatura, actuar sobre el alimento según la política y corregir o reparar la cámara" }, { "id": "b", "text": "Agregar más melón a la cámara" }, { "id": "c", "text": "Ajustar el termómetro a un número más bajo" }, { "id": "d", "text": "Esperar hasta mañana" }],
+              "correct": "a",
+              "explanation": "Determine el tiempo fuera de temperatura, deseche o actúe sobre el alimento afectado según la política, y luego corrija el problema del equipo y documéntelo."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Lavado de manos",
+          "situation": "Un cocinero regresa de su descanso, toca su teléfono y empieza a emplatar sin lavarse las manos.",
+          "questions": [
+            {
+              "id": "3-2-s3-q1", "type": "multiple-choice",
+              "stem": "¿Qué afirmación describe la infracción y la corrección?",
+              "options": [{ "id": "a", "text": "No hay infracción: las manos se ven limpias" }, { "id": "b", "text": "Las manos deben lavarse en un lavamanos antes de manipular alimentos; detenga el trabajo y lávese" }, { "id": "c", "text": "Use desinfectante de manos en lugar de lavarse" }, { "id": "d", "text": "Póngase guantes sobre las manos sucias" }],
+              "correct": "b",
+              "explanation": "Las manos deben lavarse después de los descansos y de tocar objetos contaminados como los teléfonos. Los guantes no reemplazan el lavado de manos."
+            },
+            {
+              "id": "3-2-s3-q2", "type": "multiple-choice",
+              "stem": "¿Cuál es la mejor solución a largo plazo?",
+              "options": [{ "id": "a", "text": "Capacitar de nuevo al personal sobre cuándo lavarse las manos y mantener los lavamanos surtidos y accesibles" }, { "id": "b", "text": "Quitar todos los lavamanos" }, { "id": "c", "text": "Ignorarlo" }, { "id": "d", "text": "Prohibir los descansos" }],
+              "correct": "a",
+              "explanation": "Un gerente evita que los problemas se repitan con capacitación, supervisión y suministros accesibles."
+            }
+          ]
+        }
+      ],
+      "knowledgeCheck": [
+        {
+          "id": "3-2-q1", "type": "multiple-choice",
+          "stem": "¿Cuál es un alimento TCS?",
+          "options": [{ "id": "a", "text": "Arroz cocido" }, { "id": "b", "text": "Harina seca" }, { "id": "c", "text": "Azúcar granulada" }, { "id": "d", "text": "Frijoles secos enteros" }],
+          "correct": "a",
+          "explanation": "El arroz cocido favorece el crecimiento bacteriano si se mantiene incorrectamente, por lo que necesita control de tiempo y temperatura."
+        },
+        {
+          "id": "3-2-q2", "type": "multiple-choice",
+          "stem": "Según el Código de Alimentos de la FDA, ¿a qué temperatura o menos debe conservarse en frío un alimento TCS?",
+          "options": [{ "id": "a", "text": "41 °F (5 °C)" }, { "id": "b", "text": "50 °F (10 °C)" }, { "id": "c", "text": "60 °F (16 °C)" }, { "id": "d", "text": "70 °F (21 °C)" }],
+          "correct": "a",
+          "explanation": "El Código de Alimentos de la FDA fija la conservación en frío en 41 °F (5 °C) o menos. Verifique la edición del código local."
+        },
+        {
+          "id": "3-2-q3", "type": "multiple-choice",
+          "stem": "¿Qué acción previene mejor la contaminación cruzada?",
+          "options": [{ "id": "a", "text": "Guardar carne cruda encima de alimentos listos para comer" }, { "id": "b", "text": "Guardar alimentos listos para comer encima de la carne cruda" }, { "id": "c", "text": "Guardarlos lado a lado sin tapar" }, { "id": "d", "text": "Guardarlos juntos en una misma charola" }],
+          "correct": "b",
+          "explanation": "Los alimentos de origen animal crudos se guardan debajo de los alimentos listos para comer para que los jugos no goteen sobre ellos."
+        },
+        {
+          "id": "3-2-q4", "type": "multiple-choice",
+          "stem": "¿Qué es una acción correctiva?",
+          "options": [{ "id": "a", "text": "Un paso que se toma para resolver un problema cuando no se cumple un estándar" }, { "id": "b", "text": "Una multa del inspector de salud" }, { "id": "c", "text": "Una receta nueva" }, { "id": "d", "text": "Un tipo de desinfectante" }],
+          "correct": "a",
+          "explanation": "Las acciones correctivas resuelven el problema y evitan que se sirvan alimentos inseguros."
+        },
+        {
+          "id": "3-2-q5", "type": "multiple-choice",
+          "stem": "¿Qué es cierto sobre los guantes?",
+          "options": [{ "id": "a", "text": "Reemplazan el lavado de manos" }, { "id": "b", "text": "Deben cambiarse cuando se ensucian o cambia la tarea, y las manos deben lavarse antes" }, { "id": "c", "text": "Pueden usarse todo el turno" }, { "id": "d", "text": "Solo se usan para lavar platos" }],
+          "correct": "b",
+          "explanation": "Los guantes son una barrera, no un sustituto del lavado de manos, y deben cambiarse entre tareas."
+        }
+      ],
+      "exitTicket": { "prompt": "Describa un problema de inocuidad alimentaria que haya visto o pudiera ver en una cocina, el riesgo que genera y la acción correctiva." },
+      "reflection": "Como futuro gerente, ¿qué sistema pondría en marcha para detectar problemas antes del servicio?"
+    }
+  ]
+}

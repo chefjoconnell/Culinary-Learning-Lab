@@ -1,0 +1,159 @@
+{
+  "level": 1,
+  "title": "Level 1 – Culinary Foundations",
+  "overview": "Build the safety, organization and core cooking skills every cook needs. Level 1 moves from sanitation and mise en place to stocks, soups and the sauces that anchor classical cooking.",
+  "pathway": ["Kitchen safety and sanitation", "Tools, knives and mise en place", "Stocks and soups", "Mother sauces", "Cooking methods", "Baking fundamentals"],
+  "nextSteps": ["Complete Unit 1.1 and aim for 5/5 on the knowledge check.", "Move on to Unit 1.2 – Stocks and Soups.", "Review any unit where you scored below 80%."],
+  "canvasPath": "/modules",
+  "plannedUnits": [
+    { "id": "p1", "title": "Kitchen safety and sanitation" },
+    { "id": "p2", "title": "ServSafe Food Handler" },
+    { "id": "p3", "title": "Brigade system and kitchen organization" },
+    { "id": "p4", "title": "Knife identification, cuts and techniques" },
+    { "id": "p5", "title": "Thickening agents" },
+    { "id": "p6", "title": "Basic baking and pastry fundamentals" }
+  ],
+  "units": [
+    {
+      "id": "1-1",
+      "unit": "1.1",
+      "title": "The Five Mother Sauces",
+      "summary": "Béchamel, velouté, espagnole, tomato and hollandaise – the foundation of classical sauce making.",
+      "objective": "Identify the five classical mother sauces, their liquids, thickening methods and a common derivative of each.",
+      "cip": "CIP 12.0508 – Sauce production (alignment to be confirmed by instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Classical French cuisine organizes sauces into families. Each family begins with a mother (or leading) sauce. Adding ingredients to a mother sauce creates a derivative, or small, sauce.",
+        "Three of the five are built on a liquid plus a roux: béchamel (milk), velouté (white stock) and espagnole (brown stock). Tomato sauce is thickened by the tomato itself, and hollandaise is an emulsion of egg yolks and butter.",
+        "Why it matters: when you understand the family, you can troubleshoot lumps, breaking, or thin texture, and create new sauces with confidence."
+      ],
+      "definitions": [
+        { "term": "Roux", "text": "A cooked mixture of equal weights of fat and flour used to thicken liquids." },
+        { "term": "Emulsion", "text": "A mixture of two liquids that normally do not combine, held together by an emulsifier such as egg yolk." },
+        { "term": "Derivative sauce", "text": "A sauce made by adding ingredients to a mother sauce." },
+        { "term": "Nappé", "text": "Thick enough to coat the back of a spoon." }
+      ],
+      "table": {
+        "caption": "The five mother sauces at a glance",
+        "headers": ["Sauce", "Liquid / base", "Thickener", "Example derivative"],
+        "rows": [
+          ["Béchamel", "Milk", "White roux", "Mornay (cheese)"],
+          ["Velouté", "White stock (chicken, veal or fish)", "Blond roux", "Suprême (cream)"],
+          ["Espagnole", "Brown stock", "Brown roux", "Demi-glace"],
+          ["Tomato", "Tomatoes and stock", "Tomato solids (roux optional)", "Creole"],
+          ["Hollandaise", "Clarified butter and lemon", "Egg yolk emulsion", "Béarnaise"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "1-1-q1", "type": "multiple-choice",
+          "stem": "Which mother sauce is made from milk thickened with a white roux?",
+          "options": [{ "id": "a", "text": "Velouté" }, { "id": "b", "text": "Béchamel" }, { "id": "c", "text": "Espagnole" }, { "id": "d", "text": "Hollandaise" }],
+          "correct": "b",
+          "explanation": "Béchamel is milk plus white roux. Velouté uses a white stock."
+        },
+        {
+          "id": "1-1-q2", "type": "multiple-choice",
+          "stem": "Hollandaise is thickened by…",
+          "options": [{ "id": "a", "text": "A brown roux" }, { "id": "b", "text": "Cornstarch" }, { "id": "c", "text": "Reduced tomato solids" }, { "id": "d", "text": "An emulsion of egg yolks and butter" }],
+          "correct": "d",
+          "explanation": "Hollandaise is an emulsion. Warm egg yolks hold clarified butter in suspension."
+        },
+        {
+          "id": "1-1-q3", "type": "multiple-choice",
+          "stem": "Mornay sauce is a derivative of which mother sauce?",
+          "options": [{ "id": "a", "text": "Béchamel" }, { "id": "b", "text": "Tomato" }, { "id": "c", "text": "Espagnole" }, { "id": "d", "text": "Velouté" }],
+          "correct": "a",
+          "explanation": "Mornay is béchamel finished with cheese."
+        },
+        {
+          "id": "1-1-q4", "type": "multiple-choice",
+          "stem": "Which stock is the base of espagnole?",
+          "options": [{ "id": "a", "text": "Fish stock" }, { "id": "b", "text": "Vegetable stock" }, { "id": "c", "text": "Brown stock" }, { "id": "d", "text": "Milk" }],
+          "correct": "c",
+          "explanation": "Espagnole is brown stock thickened with a brown roux, with browned mirepoix and tomato product."
+        },
+        {
+          "id": "1-1-q5", "type": "multiple-choice",
+          "stem": "Your béchamel has lumps. What is the most likely cause?",
+          "options": [{ "id": "a", "text": "Cold roux added to cold milk without whisking" }, { "id": "b", "text": "Too much salt" }, { "id": "c", "text": "Using whole milk" }, { "id": "d", "text": "Cooking it too long" }],
+          "correct": "a",
+          "explanation": "Lumps form when the liquid and roux are combined without enough agitation, or when the temperature relationship is wrong. Add liquid gradually while whisking."
+        }
+      ],
+      "exitTicket": { "prompt": "Choose one mother sauce. Explain in two sentences how it is thickened and name one dish where you would use a derivative." },
+      "reflection": "Which sauce was hardest to remember, and what will you do tomorrow to practice it?"
+    },
+    {
+      "id": "1-2",
+      "unit": "1.2",
+      "title": "Stocks and Soups",
+      "summary": "Stock types, production methods, quality standards, and the major soup categories.",
+      "objective": "Distinguish the main stock types and soup categories, and describe how to produce a clear, flavorful stock.",
+      "cip": "CIP 12.0508 – Stocks, soups and sauces (alignment to be confirmed by instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "A stock is a flavorful liquid made by gently simmering bones, mirepoix and aromatics in water. It is the foundation of soups and sauces.",
+        "Production methods: start with cold water so proteins release slowly, simmer – never boil – and skim impurities. Boiling clouds the stock and emulsifies fat. Cool stock quickly and safely before storage.",
+        "Quality standards: a good stock is clear, has a clean flavor of its main ingredient, and carries body from gelatin. Soups fall into two broad groups: clear soups (broths, consommé) and thick soups (cream, purée, bisque, chowder)."
+      ],
+      "definitions": [
+        { "term": "Mirepoix", "text": "A flavor base of onion, carrot and celery (classically 2:1:1 by weight)." },
+        { "term": "Sachet d'épices", "text": "Herbs and spices tied in cheesecloth for easy removal." },
+        { "term": "Consommé", "text": "A clarified, crystal-clear soup made with a raft of egg whites and lean meat." },
+        { "term": "Bisque", "text": "A thick soup traditionally made from shellfish." }
+      ],
+      "table": {
+        "caption": "Common stocks",
+        "headers": ["Stock", "Bones / main ingredient", "Approach", "Typical use"],
+        "rows": [
+          ["White stock", "Chicken, veal or beef bones, unroasted", "Cold start, gentle simmer", "Velouté, soups"],
+          ["Brown stock", "Roasted beef or veal bones", "Roast bones and mirepoix, add tomato", "Espagnole, demi-glace"],
+          ["Fish stock (fumet)", "Lean white fish bones", "Short simmer, no strong-flavored fish", "Fish velouté, seafood soups"],
+          ["Vegetable stock", "Vegetables and aromatics", "Brief simmer", "Vegetarian soups and sauces"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "1-2-q1", "type": "multiple-choice",
+          "stem": "Why should a stock be simmered and not boiled?",
+          "options": [{ "id": "a", "text": "Boiling clouds the stock and emulsifies fat" }, { "id": "b", "text": "Boiling makes it too clear" }, { "id": "c", "text": "Boiling removes all flavor" }, { "id": "d", "text": "Simmering saves water" }],
+          "correct": "a",
+          "explanation": "Vigorous boiling breaks up particles and emulsifies fat into the liquid, giving a cloudy, greasy stock."
+        },
+        {
+          "id": "1-2-q2", "type": "multiple-choice",
+          "stem": "Which stock uses roasted bones?",
+          "options": [{ "id": "a", "text": "White stock" }, { "id": "b", "text": "Fish fumet" }, { "id": "c", "text": "Brown stock" }, { "id": "d", "text": "Vegetable stock" }],
+          "correct": "c",
+          "explanation": "Roasting bones adds color and a deeper flavor to brown stock."
+        },
+        {
+          "id": "1-2-q3", "type": "multiple-choice",
+          "stem": "Which is a clear soup?",
+          "options": [{ "id": "a", "text": "Bisque" }, { "id": "b", "text": "Chowder" }, { "id": "c", "text": "Cream of broccoli" }, { "id": "d", "text": "Consommé" }],
+          "correct": "d",
+          "explanation": "Consommé is a clarified, clear soup. Bisque, chowder and cream soups are thick soups."
+        },
+        {
+          "id": "1-2-q4", "type": "multiple-choice",
+          "stem": "Classic mirepoix by weight is…",
+          "options": [{ "id": "a", "text": "1 part onion, 1 part carrot, 2 parts celery" }, { "id": "b", "text": "2 parts onion, 1 part carrot, 1 part celery" }, { "id": "c", "text": "Equal parts of all three" }, { "id": "d", "text": "2 parts carrot, 1 part onion, 1 part celery" }],
+          "correct": "b",
+          "explanation": "Classic mirepoix is 2 parts onion to 1 part carrot to 1 part celery by weight."
+        },
+        {
+          "id": "1-2-q5", "type": "multiple-choice",
+          "stem": "Why start a stock with cold water?",
+          "options": [{ "id": "a", "text": "It heats faster" }, { "id": "b", "text": "It allows proteins and flavor to be released slowly so impurities can be skimmed" }, { "id": "c", "text": "It prevents the bones from cooking" }, { "id": "d", "text": "It adds salt" }],
+          "correct": "b",
+          "explanation": "Starting cold extracts flavor gradually and brings impurities to the surface where you can skim them."
+        }
+      ],
+      "exitTicket": { "prompt": "Describe three things you would check to decide whether a stock meets quality standards." },
+      "reflection": "What is one habit you can use in lab to keep a stock clear and safe to store?"
+    }
+  ]
+}
