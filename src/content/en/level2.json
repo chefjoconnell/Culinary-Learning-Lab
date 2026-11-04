@@ -1,0 +1,163 @@
+{
+  "level": 2,
+  "title": "Level 2 – Intermediate Culinary Arts",
+  "overview": "Expand your range: meat and poultry cookery, garde manger, breakfast and sandwich production, and the math that keeps a kitchen profitable.",
+  "pathway": ["Advanced knife skills", "Meat and poultry cookery", "Fish and shellfish", "Culinary math and costing", "Purchasing and storage", "Restaurant production"],
+  "nextSteps": ["Finish Unit 2.1 and match three cuts to cooking methods.", "Practice the calculators in Unit 2.2 with a recipe from lab.", "Prepare for ServSafe Allergens."],
+  "canvasPath": "/modules",
+  "plannedUnits": [
+    { "id": "p1", "title": "Advanced knife skills" },
+    { "id": "p2", "title": "Garde manger, salads and dressings" },
+    { "id": "p3", "title": "Breakfast cookery and sandwich production" },
+    { "id": "p4", "title": "Fish and shellfish" },
+    { "id": "p5", "title": "Purchasing, receiving and storage" },
+    { "id": "p6", "title": "ServSafe Allergens" }
+  ],
+  "units": [
+    {
+      "id": "2-1",
+      "unit": "2.1",
+      "title": "Cooking Methods for Meat and Poultry",
+      "summary": "Choose dry-heat or moist-heat methods based on the cut.",
+      "objective": "Select an appropriate dry-heat or moist-heat cooking method for a given cut of meat or poultry and justify the choice.",
+      "cip": "CIP 12.0508 – Meat and poultry cookery (alignment to be confirmed by instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Dry-heat methods (roasting, grilling, broiling, sautéing, pan-frying, deep-frying) cook with hot air, fat or direct heat. Moist-heat methods (braising, stewing, poaching, simmering, steaming) cook in liquid or steam.",
+        "The rule of thumb: tender cuts, which have little connective tissue, suit quick dry-heat cooking. Tough cuts from hard-working muscles contain collagen and need long, slow, moist heat to turn collagen into gelatin.",
+        "Always cook to a safe internal temperature, verified with a calibrated thermometer, and follow the current food code used in your kitchen."
+      ],
+      "definitions": [
+        { "term": "Collagen", "text": "Connective tissue that is tough when raw and becomes gelatin with slow, moist cooking." },
+        { "term": "Braising", "text": "Searing, then slowly cooking in a small amount of liquid in a covered pot." },
+        { "term": "Sauté", "text": "Cooking quickly in a small amount of fat over high heat." },
+        { "term": "Carryover cooking", "text": "Internal temperature continues to rise after food is removed from heat." }
+      ],
+      "table": {
+        "caption": "Application guide: matching cuts to methods",
+        "headers": ["Cut", "Tenderness", "Best methods", "Why"],
+        "rows": [
+          ["Beef tenderloin", "Very tender", "Roast, sauté, grill", "Little connective tissue"],
+          ["Beef chuck", "Tough", "Braise, stew", "Much collagen needs long moist heat"],
+          ["Pork loin", "Tender", "Roast, grill, sauté", "Lean and tender; avoid overcooking"],
+          ["Pork shoulder", "Tough", "Braise, slow roast", "Collagen and fat break down slowly"],
+          ["Chicken breast", "Tender, lean", "Sauté, grill, poach", "Cooks quickly and dries out if overcooked"],
+          ["Chicken leg", "Moderate", "Roast, braise", "Dark meat forgives longer cooking"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "2-1-q1", "type": "multiple-choice",
+          "stem": "Which method is best for beef chuck?",
+          "options": [{ "id": "a", "text": "Braising" }, { "id": "b", "text": "Quick grilling to rare" }, { "id": "c", "text": "Sautéing" }, { "id": "d", "text": "Broiling" }],
+          "correct": "a",
+          "explanation": "Chuck is tough with lots of collagen. Braising turns collagen into gelatin."
+        },
+        {
+          "id": "2-1-q2", "type": "multiple-choice",
+          "stem": "Which is a moist-heat method?",
+          "options": [{ "id": "a", "text": "Roasting" }, { "id": "b", "text": "Poaching" }, { "id": "c", "text": "Grilling" }, { "id": "d", "text": "Pan-frying" }],
+          "correct": "b",
+          "explanation": "Poaching cooks food in liquid. The others are dry-heat methods."
+        },
+        {
+          "id": "2-1-q3", "type": "multiple-choice",
+          "stem": "Why is a tender cut like tenderloin usually cooked with dry heat?",
+          "options": [{ "id": "a", "text": "It has little connective tissue and cooks quickly" }, { "id": "b", "text": "It is full of collagen" }, { "id": "c", "text": "It cannot be cooked in liquid safely" }, { "id": "d", "text": "It is always frozen" }],
+          "correct": "a",
+          "explanation": "Tender cuts need little time to become palatable; long cooking would dry them out."
+        },
+        {
+          "id": "2-1-q4", "type": "multiple-choice",
+          "stem": "What does collagen become during long, moist cooking?",
+          "options": [{ "id": "a", "text": "Fat" }, { "id": "b", "text": "Gelatin" }, { "id": "c", "text": "Starch" }, { "id": "d", "text": "Sugar" }],
+          "correct": "b",
+          "explanation": "Collagen converts to gelatin, which makes braised meat tender and the sauce rich."
+        },
+        {
+          "id": "2-1-q5", "type": "multiple-choice",
+          "stem": "What is carryover cooking?",
+          "options": [{ "id": "a", "text": "Cooking food in a carry-out container" }, { "id": "b", "text": "Cooking with a lid on" }, { "id": "c", "text": "Rising internal temperature after food leaves the heat" }, { "id": "d", "text": "Moving food between stations" }],
+          "correct": "c",
+          "explanation": "Large roasts keep cooking from residual heat, so pull them slightly early and rest them."
+        }
+      ],
+      "exitTicket": { "prompt": "Pick one cut from the table. In two sentences, explain which method you would use and why." },
+      "reflection": "Which method do you feel least confident choosing, and how will you practice it?"
+    },
+    {
+      "id": "2-2",
+      "unit": "2.2",
+      "title": "Culinary Math and Food Cost",
+      "summary": "Recipe scaling, conversions, yield percentage and food cost percentage.",
+      "objective": "Scale a recipe, calculate yield percentage, and compute food cost percentage using correct formulas.",
+      "cip": "CIP 12.0508 – Culinary math and cost control (alignment to be confirmed by instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "calculator": true,
+      "miniLesson": [
+        "Recipe scaling uses a conversion factor: desired yield ÷ original yield. Multiply every ingredient by the factor. Worked example: a recipe makes 10 portions and you need 25. Factor = 25 ÷ 10 = 2.5, so 4 cups becomes 10 cups.",
+        "Yield percentage = usable weight ÷ as-purchased weight × 100. Worked example: 10 lb of whole carrots yields 8 lb of peeled, trimmed carrots. 8 ÷ 10 × 100 = 80%.",
+        "Food cost percentage = plate cost ÷ selling price × 100. Worked example: a plate costs $3.00 and sells for $12.00. 3 ÷ 12 × 100 = 25%."
+      ],
+      "definitions": [
+        { "term": "As-purchased (AP)", "text": "The weight or quantity of an item as it arrives, before trimming." },
+        { "term": "Edible portion (EP)", "text": "The usable amount after trimming, peeling or cooking." },
+        { "term": "Conversion factor", "text": "The number you multiply recipe quantities by to change the yield." },
+        { "term": "Plate cost", "text": "The total cost of ingredients in one portion." }
+      ],
+      "table": {
+        "caption": "Common U.S. volume equivalents",
+        "headers": ["Unit", "Equivalent"],
+        "rows": [
+          ["1 tablespoon", "3 teaspoons"],
+          ["1 cup", "16 tablespoons"],
+          ["1 pint", "2 cups"],
+          ["1 quart", "2 pints (4 cups)"],
+          ["1 gallon", "4 quarts"],
+          ["1 pound", "16 ounces"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "2-2-q1", "type": "multiple-choice",
+          "stem": "A recipe makes 8 portions. You need 20. What is the conversion factor?",
+          "options": [{ "id": "a", "text": "0.4" }, { "id": "b", "text": "2.5" }, { "id": "c", "text": "12" }, { "id": "d", "text": "160" }],
+          "correct": "b",
+          "explanation": "20 ÷ 8 = 2.5."
+        },
+        {
+          "id": "2-2-q2", "type": "multiple-choice",
+          "stem": "You purchase 20 lb of onions and have 17 lb usable after peeling. What is the yield percentage?",
+          "options": [{ "id": "a", "text": "17%" }, { "id": "b", "text": "85%" }, { "id": "c", "text": "117%" }, { "id": "d", "text": "15%" }],
+          "correct": "b",
+          "explanation": "17 ÷ 20 × 100 = 85%."
+        },
+        {
+          "id": "2-2-q3", "type": "multiple-choice",
+          "stem": "A plate costs $4.50 and sells for $15.00. What is the food cost percentage?",
+          "options": [{ "id": "a", "text": "30%" }, { "id": "b", "text": "33%" }, { "id": "c", "text": "70%" }, { "id": "d", "text": "3.3%" }],
+          "correct": "a",
+          "explanation": "4.50 ÷ 15.00 × 100 = 30%."
+        },
+        {
+          "id": "2-2-q4", "type": "multiple-choice",
+          "stem": "How many cups are in 2 quarts?",
+          "options": [{ "id": "a", "text": "4" }, { "id": "b", "text": "6" }, { "id": "c", "text": "8" }, { "id": "d", "text": "16" }],
+          "correct": "c",
+          "explanation": "1 quart = 4 cups, so 2 quarts = 8 cups."
+        },
+        {
+          "id": "2-2-q5", "type": "multiple-choice",
+          "stem": "A recipe calls for 3 cups of stock for 6 portions. How much for 18 portions?",
+          "options": [{ "id": "a", "text": "6 cups" }, { "id": "b", "text": "9 cups" }, { "id": "c", "text": "12 cups" }, { "id": "d", "text": "18 cups" }],
+          "correct": "b",
+          "explanation": "Factor = 18 ÷ 6 = 3. 3 cups × 3 = 9 cups."
+        }
+      ],
+      "exitTicket": { "prompt": "Write your own food cost problem with numbers, then solve it showing each step." },
+      "reflection": "Where in the kitchen will accurate math save the most money or prevent the most waste?"
+    }
+  ]
+}

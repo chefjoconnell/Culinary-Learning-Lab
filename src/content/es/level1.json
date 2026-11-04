@@ -1,0 +1,159 @@
+{
+  "level": 1,
+  "title": "Nivel 1 – Fundamentos Culinarios",
+  "overview": "Desarrolle la seguridad, la organización y las habilidades básicas que todo cocinero necesita. El Nivel 1 avanza desde la higiene y la mise en place hasta los fondos, las sopas y las salsas que sustentan la cocina clásica.",
+  "pathway": ["Seguridad e higiene en la cocina", "Utensilios, cuchillos y mise en place", "Fondos y sopas", "Salsas madre", "Métodos de cocción", "Fundamentos de panadería"],
+  "nextSteps": ["Complete la Unidad 1.1 y busque 5/5 en la verificación.", "Pase a la Unidad 1.2 – Fondos y Sopas.", "Repase cualquier unidad donde sacó menos de 80 %."],
+  "canvasPath": "/modules",
+  "plannedUnits": [
+    { "id": "p1", "title": "Seguridad e higiene en la cocina" },
+    { "id": "p2", "title": "ServSafe Manipulador de Alimentos" },
+    { "id": "p3", "title": "Sistema de brigada y organización de la cocina" },
+    { "id": "p4", "title": "Identificación de cuchillos, cortes y técnicas" },
+    { "id": "p5", "title": "Agentes espesantes" },
+    { "id": "p6", "title": "Fundamentos de panadería y repostería" }
+  ],
+  "units": [
+    {
+      "id": "1-1",
+      "unit": "1.1",
+      "title": "Las Cinco Salsas Madre",
+      "summary": "Bechamel, velouté, española, tomate y holandesa: la base de la elaboración clásica de salsas.",
+      "objective": "Identificar las cinco salsas madre clásicas, sus líquidos, sus métodos de espesado y una salsa derivada común de cada una.",
+      "cip": "CIP 12.0508 – Elaboración de salsas (alineación por confirmar por el instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "La cocina clásica francesa organiza las salsas en familias. Cada familia comienza con una salsa madre (o salsa base). Al agregar ingredientes a una salsa madre se crea una salsa derivada.",
+        "Tres de las cinco se construyen con un líquido y un espesante, normalmente un roux: bechamel (leche), velouté (fondo blanco) y española (fondo oscuro). La salsa de tomate se espesa con el propio tomate y la holandesa es una emulsión de yemas de huevo y mantequilla.",
+        "Por qué importa: cuando comprende la familia, puede corregir grumos, cortes o textura aguada, y crear salsas nuevas con confianza."
+      ],
+      "definitions": [
+        { "term": "Roux", "text": "Mezcla cocida de pesos iguales de grasa y harina que se usa para espesar líquidos." },
+        { "term": "Emulsión", "text": "Mezcla de dos líquidos que normalmente no se combinan, unidos por un emulsionante como la yema de huevo." },
+        { "term": "Salsa derivada", "text": "Salsa que se elabora añadiendo ingredientes a una salsa madre." },
+        { "term": "Nappé", "text": "Con espesor suficiente para cubrir el dorso de una cuchara." }
+      ],
+      "table": {
+        "caption": "Las cinco salsas madre de un vistazo",
+        "headers": ["Salsa", "Líquido / base", "Espesante", "Ejemplo de derivada"],
+        "rows": [
+          ["Bechamel", "Leche", "Roux blanco", "Mornay (queso)"],
+          ["Velouté", "Fondo blanco (pollo, ternera o pescado)", "Roux rubio", "Suprema (crema)"],
+          ["Española", "Fondo oscuro", "Roux oscuro", "Demi-glace"],
+          ["Tomate", "Tomates y fondo", "Sólidos del tomate (roux opcional)", "Criolla"],
+          ["Holandesa", "Mantequilla clarificada y limón", "Emulsión de yemas de huevo", "Bearnesa"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "1-1-q1", "type": "multiple-choice",
+          "stem": "¿Qué salsa madre se hace con leche espesada con roux blanco?",
+          "options": [{ "id": "a", "text": "Velouté" }, { "id": "b", "text": "Bechamel" }, { "id": "c", "text": "Española" }, { "id": "d", "text": "Holandesa" }],
+          "correct": "b",
+          "explanation": "La bechamel es leche con roux blanco. El velouté usa un fondo blanco."
+        },
+        {
+          "id": "1-1-q2", "type": "multiple-choice",
+          "stem": "La holandesa se espesa mediante…",
+          "options": [{ "id": "a", "text": "Un roux oscuro" }, { "id": "b", "text": "Maicena" }, { "id": "c", "text": "Sólidos de tomate reducidos" }, { "id": "d", "text": "Una emulsión de yemas de huevo y mantequilla" }],
+          "correct": "d",
+          "explanation": "La holandesa es una emulsión. Las yemas tibias mantienen en suspensión la mantequilla clarificada."
+        },
+        {
+          "id": "1-1-q3", "type": "multiple-choice",
+          "stem": "La salsa Mornay es una derivada de ¿qué salsa madre?",
+          "options": [{ "id": "a", "text": "Bechamel" }, { "id": "b", "text": "Tomate" }, { "id": "c", "text": "Española" }, { "id": "d", "text": "Velouté" }],
+          "correct": "a",
+          "explanation": "La Mornay es una bechamel terminada con queso."
+        },
+        {
+          "id": "1-1-q4", "type": "multiple-choice",
+          "stem": "¿Qué fondo es la base de la salsa española?",
+          "options": [{ "id": "a", "text": "Fondo de pescado" }, { "id": "b", "text": "Fondo de verduras" }, { "id": "c", "text": "Fondo oscuro" }, { "id": "d", "text": "Leche" }],
+          "correct": "c",
+          "explanation": "La española es fondo oscuro espesado con roux oscuro, con mirepoix dorado y puré de tomate."
+        },
+        {
+          "id": "1-1-q5", "type": "multiple-choice",
+          "stem": "Su bechamel tiene grumos. ¿Cuál es la causa más probable?",
+          "options": [{ "id": "a", "text": "Se juntaron el roux y la leche sin batir lo suficiente" }, { "id": "b", "text": "Demasiada sal" }, { "id": "c", "text": "Usar leche entera" }, { "id": "d", "text": "Cocinarla demasiado tiempo" }],
+          "correct": "a",
+          "explanation": "Los grumos se forman cuando el líquido y el roux se combinan sin suficiente agitación o con una relación de temperaturas inadecuada. Añada el líquido poco a poco mientras bate."
+        }
+      ],
+      "exitTicket": { "prompt": "Elija una salsa madre. Explique en dos oraciones cómo se espesa y nombre un plato donde usaría una derivada." },
+      "reflection": "¿Qué salsa fue la más difícil de recordar y qué hará mañana para practicarla?"
+    },
+    {
+      "id": "1-2",
+      "unit": "1.2",
+      "title": "Fondos y Sopas",
+      "summary": "Tipos de fondos, métodos de producción, estándares de calidad y las principales categorías de sopas.",
+      "objective": "Distinguir los principales tipos de fondos y categorías de sopas, y describir cómo producir un fondo claro y sabroso.",
+      "cip": "CIP 12.0508 – Fondos, sopas y salsas (alineación por confirmar por el instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Un fondo es un líquido sabroso que se obtiene cociendo suavemente huesos, mirepoix y aromáticos en agua. Es la base de las sopas y las salsas.",
+        "Métodos de producción: comience con agua fría para que las proteínas se liberen lentamente, cueza a fuego suave —nunca hierva— y retire las impurezas. El hervor enturbia el fondo y emulsiona la grasa. Enfríe el fondo con rapidez y seguridad antes de almacenarlo.",
+        "Estándares de calidad: un buen fondo es claro, tiene un sabor limpio de su ingrediente principal y aporta cuerpo por la gelatina. Las sopas se dividen en dos grupos: sopas claras (caldos, consomé) y sopas espesas (crema, puré, bisque, chowder)."
+      ],
+      "definitions": [
+        { "term": "Mirepoix", "text": "Base aromática de cebolla, zanahoria y apio (clásicamente 2:1:1 por peso)." },
+        { "term": "Sachet d'épices", "text": "Hierbas y especias atadas en una gasa para retirarlas con facilidad." },
+        { "term": "Consomé", "text": "Sopa clarificada y cristalina que se hace con una balsa de claras de huevo y carne magra." },
+        { "term": "Bisque", "text": "Sopa espesa preparada tradicionalmente con mariscos." }
+      ],
+      "table": {
+        "caption": "Fondos comunes",
+        "headers": ["Fondo", "Huesos / ingrediente principal", "Método", "Uso típico"],
+        "rows": [
+          ["Fondo blanco", "Huesos de pollo, ternera o res, sin asar", "Inicio en frío, cocción suave", "Velouté, sopas"],
+          ["Fondo oscuro", "Huesos de res o ternera asados", "Asar huesos y mirepoix, añadir tomate", "Española, demi-glace"],
+          ["Fondo de pescado (fumet)", "Espinas de pescado blanco magro", "Cocción corta, sin pescados de sabor fuerte", "Velouté de pescado, sopas de mariscos"],
+          ["Fondo de verduras", "Verduras y aromáticos", "Cocción breve", "Sopas y salsas vegetarianas"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "1-2-q1", "type": "multiple-choice",
+          "stem": "¿Por qué un fondo debe cocerse a fuego suave y no hervir?",
+          "options": [{ "id": "a", "text": "El hervor enturbia el fondo y emulsiona la grasa" }, { "id": "b", "text": "El hervor lo deja demasiado claro" }, { "id": "c", "text": "El hervor elimina todo el sabor" }, { "id": "d", "text": "Cocer suavemente ahorra agua" }],
+          "correct": "a",
+          "explanation": "El hervor vigoroso rompe las partículas y emulsiona la grasa en el líquido, lo que produce un fondo turbio y grasoso."
+        },
+        {
+          "id": "1-2-q2", "type": "multiple-choice",
+          "stem": "¿Qué fondo usa huesos asados?",
+          "options": [{ "id": "a", "text": "Fondo blanco" }, { "id": "b", "text": "Fumet de pescado" }, { "id": "c", "text": "Fondo oscuro" }, { "id": "d", "text": "Fondo de verduras" }],
+          "correct": "c",
+          "explanation": "Asar los huesos aporta color y un sabor más profundo al fondo oscuro."
+        },
+        {
+          "id": "1-2-q3", "type": "multiple-choice",
+          "stem": "¿Cuál es una sopa clara?",
+          "options": [{ "id": "a", "text": "Bisque" }, { "id": "b", "text": "Chowder" }, { "id": "c", "text": "Crema de brócoli" }, { "id": "d", "text": "Consomé" }],
+          "correct": "d",
+          "explanation": "El consomé es una sopa clarificada y transparente. El bisque, el chowder y las cremas son sopas espesas."
+        },
+        {
+          "id": "1-2-q4", "type": "multiple-choice",
+          "stem": "El mirepoix clásico por peso es…",
+          "options": [{ "id": "a", "text": "1 parte de cebolla, 1 de zanahoria, 2 de apio" }, { "id": "b", "text": "2 partes de cebolla, 1 de zanahoria, 1 de apio" }, { "id": "c", "text": "Partes iguales de los tres" }, { "id": "d", "text": "2 partes de zanahoria, 1 de cebolla, 1 de apio" }],
+          "correct": "b",
+          "explanation": "El mirepoix clásico es 2 partes de cebolla, 1 de zanahoria y 1 de apio por peso."
+        },
+        {
+          "id": "1-2-q5", "type": "multiple-choice",
+          "stem": "¿Por qué comenzar un fondo con agua fría?",
+          "options": [{ "id": "a", "text": "Se calienta más rápido" }, { "id": "b", "text": "Permite liberar lentamente proteínas y sabor para poder retirar las impurezas" }, { "id": "c", "text": "Evita que los huesos se cuezan" }, { "id": "d", "text": "Añade sal" }],
+          "correct": "b",
+          "explanation": "Comenzar en frío extrae el sabor poco a poco y lleva las impurezas a la superficie, donde se pueden retirar."
+        }
+      ],
+      "exitTicket": { "prompt": "Describa tres aspectos que revisaría para decidir si un fondo cumple los estándares de calidad." },
+      "reflection": "¿Qué hábito puede usar en el laboratorio para mantener un fondo claro y seguro de almacenar?"
+    }
+  ]
+}

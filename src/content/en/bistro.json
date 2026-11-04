@@ -1,0 +1,61 @@
+{
+  "title": "Bistro @ RMCTC",
+  "intro": "Our student-operated restaurant is where classroom learning becomes real service. This page contains general information only. No student names, schedules or records are posted here.",
+  "announcementsTitle": "Announcements",
+  "announcements": [
+    {
+      "date": "Sample",
+      "title": "Bistro opening day (sample)",
+      "body": "Replace this with the real opening date, hours and reservation details."
+    },
+    {
+      "date": "Sample",
+      "title": "Weekly special (sample)",
+      "body": "Pan-roasted chicken with velouté-based pan sauce and seasonal vegetables."
+    }
+  ],
+  "menuTitle": "Daily menu (sample)",
+  "menuHeaders": [
+    "Course",
+    "Item",
+    "Note"
+  ],
+  "menu": [
+    {
+      "course": "Soup",
+      "item": "Cream of tomato soup",
+      "note": "Vegetarian"
+    },
+    {
+      "course": "Entrée",
+      "item": "Braised beef with root vegetables",
+      "note": "Contains celery"
+    },
+    {
+      "course": "Dessert",
+      "item": "Seasonal fruit crisp",
+      "note": "Contains wheat, milk"
+    }
+  ],
+  "allergenNote": "Always ask your server about allergens. Menu notes are a sample only.",
+  "trainingTitle": "Service training topics",
+  "training": [
+    "Production assignments and prep lists (managed in Canvas)",
+    "Mise en place checklists",
+    "Kitchen brigade responsibilities",
+    "Front-of-house service procedures",
+    "Restaurant professionalism expectations",
+    "Daily production reflection"
+  ],
+  "mise": {
+    "title": "Mise en place checklist (practice)",
+    "items": [
+      "Uniform clean, hair restrained",
+      "Hands washed",
+      "Station sanitized",
+      "Tools and equipment gathered",
+      "Recipes read and ingredients staged",
+      "Labeled and dated containers ready"
+    ]
+  }
+}

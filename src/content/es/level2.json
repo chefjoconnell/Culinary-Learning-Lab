@@ -1,0 +1,163 @@
+{
+  "level": 2,
+  "title": "Nivel 2 – Artes Culinarias Intermedias",
+  "overview": "Amplíe su repertorio: cocción de carnes y aves, garde manger, desayunos y sándwiches, y las matemáticas que mantienen rentable una cocina.",
+  "pathway": ["Habilidades avanzadas con cuchillo", "Cocción de carnes y aves", "Pescados y mariscos", "Matemáticas culinarias y costeo", "Compras y almacenamiento", "Producción de restaurante"],
+  "nextSteps": ["Termine la Unidad 2.1 y relacione tres cortes con métodos de cocción.", "Practique las calculadoras de la Unidad 2.2 con una receta del laboratorio.", "Prepárese para ServSafe Alérgenos."],
+  "canvasPath": "/modules",
+  "plannedUnits": [
+    { "id": "p1", "title": "Habilidades avanzadas con cuchillo" },
+    { "id": "p2", "title": "Garde manger, ensaladas y aderezos" },
+    { "id": "p3", "title": "Desayunos y producción de sándwiches" },
+    { "id": "p4", "title": "Pescados y mariscos" },
+    { "id": "p5", "title": "Compras, recepción y almacenamiento" },
+    { "id": "p6", "title": "ServSafe Alérgenos" }
+  ],
+  "units": [
+    {
+      "id": "2-1",
+      "unit": "2.1",
+      "title": "Métodos de Cocción para Carnes y Aves",
+      "summary": "Elija calor seco o calor húmedo según el corte.",
+      "objective": "Seleccionar un método de cocción de calor seco o húmedo adecuado para un corte de carne o ave y justificar la elección.",
+      "cip": "CIP 12.0508 – Cocción de carnes y aves (alineación por confirmar por el instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "miniLesson": [
+        "Los métodos de calor seco (asado, parrilla, gratinado, salteado, fritura en sartén, fritura profunda) cocinan con aire caliente, grasa o calor directo. Los métodos de calor húmedo (estofado, guiso, escalfado, cocción a fuego suave, vapor) cocinan en líquido o vapor.",
+        "Regla general: los cortes tiernos, con poco tejido conectivo, van bien con cocción rápida en calor seco. Los cortes duros de músculos que trabajan mucho contienen colágeno y necesitan calor húmedo, lento y prolongado para convertirlo en gelatina.",
+        "Cocine siempre hasta una temperatura interna segura, verificada con un termómetro calibrado, y siga el código alimentario vigente en su cocina."
+      ],
+      "definitions": [
+        { "term": "Colágeno", "text": "Tejido conectivo que es duro en crudo y se convierte en gelatina con cocción lenta y húmeda." },
+        { "term": "Estofado (braising)", "text": "Sellar y luego cocinar lentamente en poco líquido en una olla tapada." },
+        { "term": "Salteado", "text": "Cocinar rápidamente en poca grasa a fuego alto." },
+        { "term": "Cocción residual", "text": "La temperatura interna sigue subiendo después de retirar el alimento del calor." }
+      ],
+      "table": {
+        "caption": "Guía de aplicación: relacionar cortes con métodos",
+        "headers": ["Corte", "Terneza", "Mejores métodos", "Por qué"],
+        "rows": [
+          ["Filete de res", "Muy tierno", "Asar, saltear, parrilla", "Poco tejido conectivo"],
+          ["Chuck de res", "Duro", "Estofar, guisar", "Mucho colágeno necesita calor húmedo prolongado"],
+          ["Lomo de cerdo", "Tierno", "Asar, parrilla, saltear", "Magro y tierno; evite cocinarlo demasiado"],
+          ["Paleta de cerdo", "Duro", "Estofar, asar lentamente", "El colágeno y la grasa se descomponen despacio"],
+          ["Pechuga de pollo", "Tierna, magra", "Saltear, parrilla, escalfar", "Se cocina rápido y se reseca si se pasa"],
+          ["Pierna de pollo", "Moderada", "Asar, estofar", "La carne oscura tolera mejor la cocción larga"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "2-1-q1", "type": "multiple-choice",
+          "stem": "¿Qué método es mejor para el chuck de res?",
+          "options": [{ "id": "a", "text": "Estofado" }, { "id": "b", "text": "Parrilla rápida casi crudo" }, { "id": "c", "text": "Salteado" }, { "id": "d", "text": "Gratinado" }],
+          "correct": "a",
+          "explanation": "El chuck es duro y tiene mucho colágeno. El estofado lo convierte en gelatina."
+        },
+        {
+          "id": "2-1-q2", "type": "multiple-choice",
+          "stem": "¿Cuál es un método de calor húmedo?",
+          "options": [{ "id": "a", "text": "Asado" }, { "id": "b", "text": "Escalfado" }, { "id": "c", "text": "Parrilla" }, { "id": "d", "text": "Fritura en sartén" }],
+          "correct": "b",
+          "explanation": "El escalfado cocina el alimento en líquido. Los demás son métodos de calor seco."
+        },
+        {
+          "id": "2-1-q3", "type": "multiple-choice",
+          "stem": "¿Por qué un corte tierno como el filete se cocina normalmente con calor seco?",
+          "options": [{ "id": "a", "text": "Tiene poco tejido conectivo y se cocina rápido" }, { "id": "b", "text": "Está lleno de colágeno" }, { "id": "c", "text": "No se puede cocinar en líquido de forma segura" }, { "id": "d", "text": "Siempre está congelado" }],
+          "correct": "a",
+          "explanation": "Los cortes tiernos necesitan poco tiempo; una cocción larga los resecaría."
+        },
+        {
+          "id": "2-1-q4", "type": "multiple-choice",
+          "stem": "¿En qué se convierte el colágeno durante una cocción larga y húmeda?",
+          "options": [{ "id": "a", "text": "Grasa" }, { "id": "b", "text": "Gelatina" }, { "id": "c", "text": "Almidón" }, { "id": "d", "text": "Azúcar" }],
+          "correct": "b",
+          "explanation": "El colágeno se convierte en gelatina, que ablanda la carne estofada y enriquece la salsa."
+        },
+        {
+          "id": "2-1-q5", "type": "multiple-choice",
+          "stem": "¿Qué es la cocción residual?",
+          "options": [{ "id": "a", "text": "Cocinar en un envase para llevar" }, { "id": "b", "text": "Cocinar con tapa" }, { "id": "c", "text": "El aumento de temperatura interna después de retirar el alimento del calor" }, { "id": "d", "text": "Mover alimentos entre estaciones" }],
+          "correct": "c",
+          "explanation": "Los asados grandes siguen cocinándose por el calor residual, así que se retiran un poco antes y se dejan reposar."
+        }
+      ],
+      "exitTicket": { "prompt": "Elija un corte de la tabla. En dos oraciones, explique qué método usaría y por qué." },
+      "reflection": "¿Qué método le da menos confianza al elegir y cómo lo practicará?"
+    },
+    {
+      "id": "2-2",
+      "unit": "2.2",
+      "title": "Matemáticas Culinarias y Costo de Alimentos",
+      "summary": "Escalado de recetas, conversiones, porcentaje de rendimiento y porcentaje de costo de alimentos.",
+      "objective": "Escalar una receta, calcular el porcentaje de rendimiento y calcular el porcentaje de costo de alimentos con las fórmulas correctas.",
+      "cip": "CIP 12.0508 – Matemáticas culinarias y control de costos (alineación por confirmar por el instructor)",
+      "canvasPath": "/modules",
+      "status": "demo",
+      "calculator": true,
+      "miniLesson": [
+        "El escalado de recetas usa un factor de conversión: rendimiento deseado ÷ rendimiento original. Multiplique cada ingrediente por el factor. Ejemplo resuelto: una receta rinde 10 porciones y necesita 25. Factor = 25 ÷ 10 = 2.5, así que 4 tazas se convierten en 10 tazas.",
+        "Porcentaje de rendimiento = peso utilizable ÷ peso de compra × 100. Ejemplo resuelto: 10 lb de zanahorias enteras rinden 8 lb peladas y recortadas. 8 ÷ 10 × 100 = 80 %.",
+        "Porcentaje de costo de alimentos = costo del plato ÷ precio de venta × 100. Ejemplo resuelto: un plato cuesta $3.00 y se vende en $12.00. 3 ÷ 12 × 100 = 25 %."
+      ],
+      "definitions": [
+        { "term": "Peso de compra (AP)", "text": "El peso o cantidad de un artículo tal como llega, antes de recortarlo." },
+        { "term": "Porción comestible (EP)", "text": "La cantidad utilizable después de recortar, pelar o cocinar." },
+        { "term": "Factor de conversión", "text": "El número por el que se multiplican las cantidades de la receta para cambiar el rendimiento." },
+        { "term": "Costo del plato", "text": "El costo total de los ingredientes de una porción." }
+      ],
+      "table": {
+        "caption": "Equivalencias comunes de volumen en EE. UU.",
+        "headers": ["Unidad", "Equivalencia"],
+        "rows": [
+          ["1 cucharada", "3 cucharaditas"],
+          ["1 taza", "16 cucharadas"],
+          ["1 pinta", "2 tazas"],
+          ["1 cuarto de galón", "2 pintas (4 tazas)"],
+          ["1 galón", "4 cuartos de galón"],
+          ["1 libra", "16 onzas"]
+        ]
+      },
+      "knowledgeCheck": [
+        {
+          "id": "2-2-q1", "type": "multiple-choice",
+          "stem": "Una receta rinde 8 porciones. Usted necesita 20. ¿Cuál es el factor de conversión?",
+          "options": [{ "id": "a", "text": "0.4" }, { "id": "b", "text": "2.5" }, { "id": "c", "text": "12" }, { "id": "d", "text": "160" }],
+          "correct": "b",
+          "explanation": "20 ÷ 8 = 2.5."
+        },
+        {
+          "id": "2-2-q2", "type": "multiple-choice",
+          "stem": "Compra 20 lb de cebollas y tiene 17 lb utilizables después de pelarlas. ¿Cuál es el porcentaje de rendimiento?",
+          "options": [{ "id": "a", "text": "17 %" }, { "id": "b", "text": "85 %" }, { "id": "c", "text": "117 %" }, { "id": "d", "text": "15 %" }],
+          "correct": "b",
+          "explanation": "17 ÷ 20 × 100 = 85 %."
+        },
+        {
+          "id": "2-2-q3", "type": "multiple-choice",
+          "stem": "Un plato cuesta $4.50 y se vende en $15.00. ¿Cuál es el porcentaje de costo de alimentos?",
+          "options": [{ "id": "a", "text": "30 %" }, { "id": "b", "text": "33 %" }, { "id": "c", "text": "70 %" }, { "id": "d", "text": "3.3 %" }],
+          "correct": "a",
+          "explanation": "4.50 ÷ 15.00 × 100 = 30 %."
+        },
+        {
+          "id": "2-2-q4", "type": "multiple-choice",
+          "stem": "¿Cuántas tazas hay en 2 cuartos de galón?",
+          "options": [{ "id": "a", "text": "4" }, { "id": "b", "text": "6" }, { "id": "c", "text": "8" }, { "id": "d", "text": "16" }],
+          "correct": "c",
+          "explanation": "1 cuarto de galón = 4 tazas, así que 2 cuartos = 8 tazas."
+        },
+        {
+          "id": "2-2-q5", "type": "multiple-choice",
+          "stem": "Una receta pide 3 tazas de fondo para 6 porciones. ¿Cuánto para 18 porciones?",
+          "options": [{ "id": "a", "text": "6 tazas" }, { "id": "b", "text": "9 tazas" }, { "id": "c", "text": "12 tazas" }, { "id": "d", "text": "18 tazas" }],
+          "correct": "b",
+          "explanation": "Factor = 18 ÷ 6 = 3. 3 tazas × 3 = 9 tazas."
+        }
+      ],
+      "exitTicket": { "prompt": "Escriba su propio problema de costo de alimentos con números y resuélvalo mostrando cada paso." },
+      "reflection": "¿Dónde en la cocina ahorrarán más dinero o evitarán más desperdicio los cálculos exactos?"
+    }
+  ]
+}

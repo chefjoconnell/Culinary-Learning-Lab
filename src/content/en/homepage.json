@@ -1,0 +1,146 @@
+{
+  "hero": {
+    "eyebrow": "The Culinary Command Center",
+    "title": "Welcome to your daily kitchen of learning",
+    "welcomeFrom": "A message from Chef O'Connell",
+    "welcome": "Welcome back, chefs. In this kitchen we choose hard, we prepare our mise en place, and we get 1% better every day. Start with your bell ringer, then take on today's challenge. Standards are earned through purposeful practice and feedback."
+  },
+  "today": {
+    "title": "Today's learning objective",
+    "objective": "Name the five classical mother sauces and identify the thickening agent used in each.",
+    "unitTitle": "Current culinary unit",
+    "unit": "Unit 1.1 – The Five Mother Sauces",
+    "unitLink": "/level1/1-1",
+    "skillTitle": "Featured culinary skill",
+    "skill": "Making a blond roux: equal weights of fat and flour, cooked gently without color, then cooled or tempered before liquid is added.",
+    "start": "Start today's unit"
+  },
+  "bellRinger": {
+    "title": "Daily bell ringer",
+    "intro": "Two minutes. No notes. Retrieval makes memory stronger.",
+    "done": "Bell ringer complete – nice warm-up.",
+    "questions": [
+      {
+        "id": "br-1", "type": "multiple-choice",
+        "stem": "Which mother sauce is thickened with a roux and made with milk?",
+        "options": [
+          { "id": "a", "text": "Béchamel" }, { "id": "b", "text": "Velouté" },
+          { "id": "c", "text": "Hollandaise" }, { "id": "d", "text": "Tomato" }
+        ],
+        "correct": "a",
+        "explanation": "Béchamel is milk thickened with a white roux. Velouté uses white stock instead of milk."
+      },
+      {
+        "id": "br-2", "type": "multiple-choice",
+        "stem": "What does 'mise en place' mean?",
+        "options": [
+          { "id": "a", "text": "Cook to order" }, { "id": "b", "text": "Everything in its place" },
+          { "id": "c", "text": "Season at the end" }, { "id": "d", "text": "Clean as you go" }
+        ],
+        "correct": "b",
+        "explanation": "Mise en place is French for 'everything in its place' – organizing and preparing before you cook."
+      },
+      {
+        "id": "br-3", "type": "multiple-choice",
+        "stem": "Which type of cooking uses liquid or steam to transfer heat?",
+        "options": [
+          { "id": "a", "text": "Dry-heat" }, { "id": "b", "text": "Moist-heat" },
+          { "id": "c", "text": "Cold-smoking" }, { "id": "d", "text": "Fermentation" }
+        ],
+        "correct": "b",
+        "explanation": "Moist-heat methods such as braising, poaching and steaming transfer heat through liquid or steam."
+      }
+    ]
+  },
+  "challenge": {
+    "title": "Culinary challenge of the day",
+    "intro": "Five questions. Two minutes. Answer as many as you can before the timer ends.",
+    "start": "Start challenge",
+    "next": "Next question",
+    "finish": "See results",
+    "timeLeft": "Time left",
+    "timeUp": "Time is up!",
+    "result": "You answered {score} of {total} correctly.",
+    "again": "Try again",
+    "pointsNote": "Practice points only – not a grade.",
+    "questions": [
+      {
+        "id": "ch-1", "type": "multiple-choice",
+        "stem": "Which mother sauce is an emulsion of egg yolks and clarified butter?",
+        "options": [{ "id": "a", "text": "Espagnole" }, { "id": "b", "text": "Béchamel" }, { "id": "c", "text": "Hollandaise" }, { "id": "d", "text": "Velouté" }],
+        "correct": "c",
+        "explanation": "Hollandaise is a warm emulsion of egg yolks and clarified butter, seasoned with lemon."
+      },
+      {
+        "id": "ch-2", "type": "multiple-choice",
+        "stem": "What is the classic ratio of a roux by weight?",
+        "options": [{ "id": "a", "text": "2 parts flour : 1 part fat" }, { "id": "b", "text": "1 part flour : 2 parts fat" }, { "id": "c", "text": "Equal parts fat and flour" }, { "id": "d", "text": "3 parts flour : 1 part fat" }],
+        "correct": "c",
+        "explanation": "A classic roux is equal parts fat and flour by weight, cooked to the color the sauce requires."
+      },
+      {
+        "id": "ch-3", "type": "multiple-choice",
+        "stem": "Which bones make a brown stock?",
+        "options": [{ "id": "a", "text": "Raw chicken bones simmered gently" }, { "id": "b", "text": "Roasted beef or veal bones" }, { "id": "c", "text": "Fish bones only" }, { "id": "d", "text": "Vegetables only" }],
+        "correct": "b",
+        "explanation": "Brown stock uses roasted bones (and usually roasted mirepoix and tomato product) for color and flavor."
+      },
+      {
+        "id": "ch-4", "type": "multiple-choice",
+        "stem": "Yield percentage is calculated as…",
+        "options": [{ "id": "a", "text": "As-purchased weight ÷ usable weight × 100" }, { "id": "b", "text": "Usable weight ÷ as-purchased weight × 100" }, { "id": "c", "text": "Cost ÷ price × 100" }, { "id": "d", "text": "Usable weight × as-purchased weight" }],
+        "correct": "b",
+        "explanation": "Yield % = usable (edible) weight ÷ as-purchased weight × 100."
+      },
+      {
+        "id": "ch-5", "type": "multiple-choice",
+        "stem": "Which cooking method is best for a tough, connective-tissue-rich cut like beef chuck?",
+        "options": [{ "id": "a", "text": "Quick sauté" }, { "id": "b", "text": "Grilling to rare" }, { "id": "c", "text": "Braising" }, { "id": "d", "text": "Deep-frying" }],
+        "correct": "c",
+        "explanation": "Long, slow, moist-heat cooking (braising) converts collagen to gelatin and tenderizes tough cuts."
+      }
+    ]
+  },
+  "professionalism": {
+    "title": "Professionalism reminder",
+    "items": [
+      "Professionalism is practiced, not simply discussed.",
+      "Arrive with your uniform ready, hair restrained, and hands washed.",
+      "Mise en place applies to the kitchen, to learning, and to life.",
+      "Clean as you go. Taste, adjust, and own your work."
+    ]
+  },
+  "levels": {
+    "title": "Jump into your level",
+    "level1": "Level 1 – Culinary Foundations",
+    "level2": "Level 2 – Intermediate Culinary Arts",
+    "level3": "Level 3 – Advanced Culinary Arts"
+  },
+  "assessments": {
+    "title": "Upcoming practical assessments",
+    "note": "Dates are managed by the instructor in this file. Confirm in Canvas.",
+    "items": [
+      { "date": "Sample – Week 1", "title": "Knife cuts practical (Level 1)", "detail": "Brunoise, julienne and batonnet. Bring your own knife kit." },
+      { "date": "Sample – Week 2", "title": "Mother sauce practical (Level 1)", "detail": "Produce one mother sauce and one derivative." },
+      { "date": "Sample – Week 3", "title": "Fabrication practical (Level 3)", "detail": "Break down a pork loin into portions." }
+    ]
+  },
+  "bistroTeaser": { "title": "Bistro @ RMCTC announcements", "more": "See the Bistro page" },
+  "certTeaser": {
+    "title": "Certification prep",
+    "servsafe": "ServSafe preparation",
+    "nocti": "NOCTI preparation",
+    "link": "/certifications"
+  },
+  "canvasShortcuts": {
+    "title": "Canvas shortcuts",
+    "note": "These open your Canvas course. Sign in to Canvas first if asked.",
+    "items": [
+      { "label": "Course modules", "path": "/modules" },
+      { "label": "Assignments", "path": "/assignments" },
+      { "label": "Quizzes", "path": "/quizzes" },
+      { "label": "Discussions", "path": "/discussion_topics" },
+      { "label": "Grades (official)", "path": "/grades" }
+    ]
+  }
+}

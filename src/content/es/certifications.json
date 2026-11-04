@@ -1,0 +1,19 @@
+{
+  "title": "Centro de Certificaciones y Competencias",
+  "intro": "Recursos de preparación para credenciales de la industria y competencias. Confirme siempre los detalles actuales del examen con la organización oficial. Las preguntas de práctica aquí son ayudas de estudio originales, no preguntas reales de los exámenes.",
+  "disclaimer": "El instructor mantiene la información publicada de las certificaciones y puede cambiar. Verifique con el programa oficial antes de inscribirse.",
+  "visit": "Información oficial",
+  "status": "Estado del módulo",
+  "items": [
+    { "id": "servsafe-food-handler", "name": "ServSafe Manipulador de Alimentos", "type": "Certificación", "summary": "Fundamentos de inocuidad alimentaria: higiene personal, control de tiempo y temperatura, contaminación cruzada, limpieza y desinfección.", "url": "https://www.servsafe.com/", "status": "Módulo planificado" },
+    { "id": "servsafe-allergens", "name": "ServSafe Alérgenos", "type": "Certificación", "summary": "Principales alérgenos, prevención del contacto cruzado y comunicación con los clientes.", "url": "https://www.servsafe.com/", "status": "Módulo planificado" },
+    { "id": "servsafe-manager", "name": "ServSafe Manager", "type": "Certificación", "summary": "Gestión de la inocuidad alimentaria. Practique con la unidad de escenarios del Nivel 3.", "url": "https://www.servsafe.com/", "status": "Escenarios de ejemplo disponibles", "link": "/level3/3-2" },
+    { "id": "nocti", "name": "NOCTI Artes Culinarias", "type": "Evaluación", "summary": "Evaluación de habilidades técnicas alineada con las competencias de educación profesional y técnica.", "url": "https://www.nocti.org/", "status": "Módulo planificado" },
+    { "id": "acf-cfc", "name": "ACF Cocinero Certificado en Fundamentos", "type": "Certificación", "summary": "Credencial de la American Culinary Federation para habilidades culinarias fundamentales.", "url": "https://www.acfchefs.org/", "status": "Módulo planificado" },
+    { "id": "fccla-culinary", "name": "FCCLA Artes Culinarias", "type": "Competencia", "summary": "Evento culinario de Family, Career and Community Leaders of America.", "url": "https://fcclainc.org/", "status": "Módulo planificado" },
+    { "id": "fccla-baking", "name": "FCCLA Panadería y Repostería", "type": "Competencia", "summary": "Evento de panadería y repostería de FCCLA.", "url": "https://fcclainc.org/", "status": "Módulo planificado" },
+    { "id": "fccla-restaurant", "name": "FCCLA Servicio de Restaurante", "type": "Competencia", "summary": "Evento de servicio de restaurante de FCCLA.", "url": "https://fcclainc.org/", "status": "Módulo planificado" },
+    { "id": "skillsusa-culinary", "name": "SkillsUSA Artes Culinarias", "type": "Competencia", "summary": "Concurso de artes culinarias de los campeonatos de SkillsUSA.", "url": "https://www.skillsusa.org/", "status": "Módulo planificado" },
+    { "id": "skillsusa-restaurant", "name": "SkillsUSA Servicio de Restaurante", "type": "Competencia", "summary": "Concurso de servicio de restaurante de los campeonatos de SkillsUSA.", "url": "https://www.skillsusa.org/", "status": "Módulo planificado" }
+  ]
+}
